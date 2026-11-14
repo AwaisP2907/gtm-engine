@@ -1,0 +1,7145 @@
+[
+ {
+  "company": "FedEx Ground",
+  "country": "US",
+  "labor_postings": 216,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 198,
+  "signal_score": 65.0,
+  "labor_pain": 40,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Warehouse like)",
+   "Material Handler - Part Time (Warehouse like)",
+   "Material Handler - Part Time (Warehouse like) (Hiring Immediately)",
+   "Seasonal Warehouse Associate"
+  ],
+  "rank": 1
+ },
+ {
+  "company": "Abercrombie and Fitch",
+  "country": "US",
+  "labor_postings": 133,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 133,
+  "signal_score": 65.0,
+  "labor_pain": 40,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Material Handler"
+  ],
+  "rank": 2
+ },
+ {
+  "company": "Walmart",
+  "country": "US",
+  "labor_postings": 39,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 39,
+  "signal_score": 65.0,
+  "labor_pain": 40,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker and Loader/Unloader"
+  ],
+  "rank": 3
+ },
+ {
+  "company": "The Home Depot Canada",
+  "country": "CA",
+  "labor_postings": 94,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 57,
+  "signal_score": 65.0,
+  "labor_pain": 40,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Day Order Picker: Full Time - SAANICH",
+   "Order Picker : Part Time - MARLBOROUGH",
+   "Order Picker : Part Time - RICHMOND",
+   "Order Picker Associate Part Time (MONCTON)"
+  ],
+  "rank": 4
+ },
+ {
+  "company": "WESCO",
+  "country": "CA",
+  "labor_postings": 20,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 19,
+  "signal_score": 61.5,
+  "labor_pain": 36.5,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 5
+ },
+ {
+  "company": "TSG - The Sheridan Group",
+  "country": "US",
+  "labor_postings": 19,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 19,
+  "signal_score": 60.9,
+  "labor_pain": 35.9,
+  "footprint": 25,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "MATERIAL HANDLER"
+  ],
+  "rank": 6
+ },
+ {
+  "company": "Performance Foodservice",
+  "country": "US",
+  "labor_postings": 17,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 14,
+  "signal_score": 59.1,
+  "labor_pain": 34.7,
+  "footprint": 24.4,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - 3rd Shift",
+   "Order Picker",
+   "Order Picker - Night Shift",
+   "Order Picker - Warehouse"
+  ],
+  "rank": 7
+ },
+ {
+  "company": "Duluth Trading Company",
+  "country": "US",
+  "labor_postings": 14,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 14,
+  "signal_score": 56.9,
+  "labor_pain": 32.5,
+  "footprint": 24.4,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Holiday Forklift Driver $20.50/hour 3rd Shift Located in Belleville, WI"
+  ],
+  "rank": 8
+ },
+ {
+  "company": "Ryder System, Inc.",
+  "country": "CA",
+  "labor_postings": 19,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 9,
+  "signal_score": 56.7,
+  "labor_pain": 35.9,
+  "footprint": 20.7,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - 5x8 Shift-4",
+   "Material Handler - 5x8 Shift-8",
+   "Material Handler - Afternoon Shift-9",
+   "Material Handler Day Shift Wednesday - Saturday"
+  ],
+  "rank": 9
+ },
+ {
+  "company": "UPS",
+  "country": "CA",
+  "labor_postings": 17,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 9,
+  "signal_score": 55.4,
+  "labor_pain": 34.7,
+  "footprint": 20.7,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Night Warehouse Associate",
+   "Warehouse Associate",
+   "Warehouse Associate (AM)",
+   "Warehouse associate"
+  ],
+  "rank": 10
+ },
+ {
+  "company": "Novolex",
+  "country": "US",
+  "labor_postings": 13,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 11,
+  "signal_score": 54.0,
+  "labor_pain": 31.7,
+  "footprint": 22.4,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Forklift Driver - Loader Checker",
+   "Material Handler/Forklift Driver",
+   "Production Forklift Driver"
+  ],
+  "rank": 11
+ },
+ {
+  "company": "Taylor Communications",
+  "country": "US",
+  "labor_postings": 13,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 10,
+  "signal_score": 53.2,
+  "labor_pain": 31.7,
+  "footprint": 21.6,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "1st Shift Order Picker",
+   "Order Picker",
+   "Order Picker (Temporary) - 1st Shift",
+   "Order Picker 1st Shift"
+  ],
+  "rank": 12
+ },
+ {
+  "company": "Staples",
+  "country": "US",
+  "labor_postings": 12,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 7,
+  "signal_score": 49.5,
+  "labor_pain": 30.8,
+  "footprint": 18.7,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker Full Time 2nd Shift",
+   "Warehouse Order Picker Part Time 1st Shift",
+   "Warehouse Order Picker Part Time 2nd Shift",
+   "Warehouse Order Picker Part Time Second Shift"
+  ],
+  "rank": 13
+ },
+ {
+  "company": "Reyes Holdings LLC",
+  "country": "US",
+  "labor_postings": 9,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 9,
+  "signal_score": 48.4,
+  "labor_pain": 27.6,
+  "footprint": 20.7,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Warehouse Order Picker"
+  ],
+  "rank": 14
+ },
+ {
+  "company": "EMCO Corporation",
+  "country": "CA",
+  "labor_postings": 10,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 7,
+  "signal_score": 47.5,
+  "labor_pain": 28.8,
+  "footprint": 18.7,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler",
+   "Material Handler / Inside Sales",
+   "Material Handler/Counter Sales"
+  ],
+  "rank": 15
+ },
+ {
+  "company": "Williams-Sonoma",
+  "country": "US",
+  "labor_postings": 7,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 6,
+  "signal_score": 42.5,
+  "labor_pain": 25.0,
+  "footprint": 17.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Forklift Driver - 1st Shift"
+  ],
+  "rank": 16
+ },
+ {
+  "company": "Gillfor Distribution",
+  "country": "CA",
+  "labor_postings": 8,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 42.5,
+  "labor_pain": 26.4,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator/Yard worker",
+   "Warehouse Personnel/Forklift Operator",
+   "Warehouse Worker / Forklift Operator",
+   "Warehouse Worker / Material Handler"
+  ],
+  "rank": 17
+ },
+ {
+  "company": "International Paper",
+  "country": "US",
+  "labor_postings": 7,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 41.1,
+  "labor_pain": 25.0,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Forklift Driver - Fox Valley",
+   "Team Lead Forklift Driver"
+  ],
+  "rank": 18
+ },
+ {
+  "company": "BJ's Wholesale Club",
+  "country": "US",
+  "labor_postings": 6,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 6,
+  "signal_score": 40.9,
+  "labor_pain": 23.4,
+  "footprint": 17.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver Full Time",
+   "Forklift Driver Part Time",
+   "Inventory Control Forklift Driver",
+   "Overnight Forklift Driver"
+  ],
+  "rank": 19
+ },
+ {
+  "company": "J.D. Irving",
+  "country": "CA",
+  "labor_postings": 6,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 39.5,
+  "labor_pain": 23.4,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Evening Material Handler/ Courier Driver",
+   "Material Handler",
+   "Order Picker"
+  ],
+  "rank": 20
+ },
+ {
+  "company": "Uline",
+  "country": "US",
+  "labor_postings": 7,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 4,
+  "signal_score": 39.4,
+  "labor_pain": 25.0,
+  "footprint": 14.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate",
+   "Warehouse Associate - Nights",
+   "Warehouse Order Picker",
+   "Warehouse Order Picker - Nights"
+  ],
+  "rank": 21
+ },
+ {
+  "company": "SMX, LLC",
+  "country": "US",
+  "labor_postings": 5,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 37.6,
+  "labor_pain": 21.5,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Order Picker",
+   "Material Handler",
+   "Warehouse Cherry/Order Picker",
+   "Warehouse Material Handler"
+  ],
+  "rank": 22
+ },
+ {
+  "company": "Kenroc Building Materials",
+  "country": "CA",
+  "labor_postings": 5,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 37.6,
+  "labor_pain": 21.5,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler",
+   "Warehouse Associate"
+  ],
+  "rank": 23
+ },
+ {
+  "company": "LKQ",
+  "country": "CA",
+  "labor_postings": 5,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 5,
+  "signal_score": 37.6,
+  "labor_pain": 21.5,
+  "footprint": 16.1,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Worker",
+   "Warehouse worker"
+  ],
+  "rank": 24
+ },
+ {
+  "company": "Powell Industries, Inc.",
+  "country": "CA",
+  "labor_postings": 6,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 35.8,
+  "labor_pain": 23.4,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Mechanical Assembly (Nights)",
+   "Material Handler - Steel Fabrication (Day Shift)",
+   "Material Handler - Steel Fabrication (Weekend Shift)"
+  ],
+  "rank": 25
+ },
+ {
+  "company": "Armstrong Fluid Technology",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 5,
+  "sites_hiring": 2,
+  "signal_score": 35.0,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 11.9,
+  "combo": 0,
+  "sample_titles": [
+   "Controls Engineer",
+   "Material Handler",
+   "Material Handler - Afternoon",
+   "Senior Controls Engineer"
+  ],
+  "rank": 26
+ },
+ {
+  "company": "The Vitamin Shoppe",
+  "country": "US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 4,
+  "signal_score": 33.8,
+  "labor_pain": 19.3,
+  "footprint": 14.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Forklift Driver"
+  ],
+  "rank": 27
+ },
+ {
+  "company": "Lineage Logistics",
+  "country": "US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 4,
+  "signal_score": 33.8,
+  "labor_pain": 19.3,
+  "footprint": 14.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "High Reach Forklift Driver"
+  ],
+  "rank": 28
+ },
+ {
+  "company": "Quincaillerie Richelieu",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 4,
+  "signal_score": 33.8,
+  "labor_pain": 19.3,
+  "footprint": 14.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "WAREHOUSE - MATERIAL HANDLER",
+   "Warehouse Material Handler",
+   "Warehouse material handler"
+  ],
+  "rank": 29
+ },
+ {
+  "company": "Daikin",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 4,
+  "signal_score": 33.8,
+  "labor_pain": 19.3,
+  "footprint": 14.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 30
+ },
+ {
+  "company": "Rexel USA",
+  "country": "CA/US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 31.8,
+  "labor_pain": 19.3,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker",
+   "Warehouse Associate"
+  ],
+  "rank": 31
+ },
+ {
+  "company": "E.B. Horsman & Son",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 31.8,
+  "labor_pain": 19.3,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Warehouse)"
+  ],
+  "rank": 32
+ },
+ {
+  "company": "Tigercat",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 31.8,
+  "labor_pain": 19.3,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator",
+   "Material Handler - Forklift Operator"
+  ],
+  "rank": 33
+ },
+ {
+  "company": "Alliance US",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 31.8,
+  "labor_pain": 19.3,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 34
+ },
+ {
+  "company": "Conagra Brands",
+  "country": "US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 29.2,
+  "labor_pain": 19.3,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver/ Blast - 2nd Shift",
+   "Forklift Driver/ Receiving - 3rd Shift",
+   "Forklift Driver/Buffer - 2nd Shift",
+   "Freezer Forklift Driver (3rd Shift)"
+  ],
+  "rank": 35
+ },
+ {
+  "company": "Drive Medical",
+  "country": "US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 29.2,
+  "labor_pain": 19.3,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 36
+ },
+ {
+  "company": "Convoy Supply",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 29.2,
+  "labor_pain": 19.3,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Morning Shift",
+   "Roof Loader/ Material Handler"
+  ],
+  "rank": 37
+ },
+ {
+  "company": "Cornerstone Building Brands",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 29.2,
+  "labor_pain": 19.3,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 38
+ },
+ {
+  "company": "Upper Canada Forest Products",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 29.2,
+  "labor_pain": 19.3,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate/ Driver"
+  ],
+  "rank": 39
+ },
+ {
+  "company": "Poly America",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 40
+ },
+ {
+  "company": "UFP Industries",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "1st Shift Forklift Driver",
+   "Forklift Driver",
+   "forklift driver."
+  ],
+  "rank": 41
+ },
+ {
+  "company": "Keurig Dr Pepper",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker Selector"
+  ],
+  "rank": 42
+ },
+ {
+  "company": "The Mayfair Group",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker",
+   "Order Picker/Packer",
+   "Warehouse Order Picker"
+  ],
+  "rank": 43
+ },
+ {
+  "company": "Platinum Coastal Group Inc",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 44
+ },
+ {
+  "company": "Savers/Value Village",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 3,
+  "signal_score": 29.1,
+  "labor_pain": 16.6,
+  "footprint": 12.5,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 45
+ },
+ {
+  "company": "Canadian Bank Note Company",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 1,
+  "sites_hiring": 2,
+  "signal_score": 27.7,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 4.6,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler",
+   "Production Technician"
+  ],
+  "rank": 46
+ },
+ {
+  "company": "Equity LifeStyle Properties",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Marine Forklift Driver"
+  ],
+  "rank": 47
+ },
+ {
+  "company": "Mauser Packaging Solutions",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver-2nd Shift",
+   "Forklift Driver-Pail",
+   "Material Handler - Mezzanine (12 Hour)"
+  ],
+  "rank": 48
+ },
+ {
+  "company": "TappWFS",
+  "country": "US",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - 1st shift",
+   "Forklift Driver - 2nd shift",
+   "Material Handler (Temp to Hire) - Pharmaceutical Production"
+  ],
+  "rank": 49
+ },
+ {
+  "company": "Jenco Canada Inc.",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "material handler"
+  ],
+  "rank": 50
+ },
+ {
+  "company": "Lamour",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Manutentionnaire / Material Handler",
+   "Pr\u00e9parateur(trice) de commandes /Order Picker"
+  ],
+  "rank": 51
+ },
+ {
+  "company": "Belron Canada",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler / Driver - Vanfax"
+  ],
+  "rank": 52
+ },
+ {
+  "company": "Arctic Beverages",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 26.5,
+  "labor_pain": 16.6,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate",
+   "Warehouse Associate - Order Picker"
+  ],
+  "rank": 53
+ },
+ {
+  "company": "Caleres",
+  "country": "US",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 25.6,
+  "labor_pain": 19.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver A",
+   "Forklift Driver B",
+   "Forklift Driver E"
+  ],
+  "rank": 54
+ },
+ {
+  "company": "Integra",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 25.6,
+  "labor_pain": 19.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler",
+   "Material Handler (Day Shift)"
+  ],
+  "rank": 55
+ },
+ {
+  "company": "[contact] Brooks Company",
+  "country": "CA",
+  "labor_postings": 4,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 25.6,
+  "labor_pain": 19.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate",
+   "Warehouse Associate."
+  ],
+  "rank": 56
+ },
+ {
+  "company": "Wolff Bros. Supply, Inc.",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Dispatch/Belt",
+   "Warehouse Associate I"
+  ],
+  "rank": 57
+ },
+ {
+  "company": "Cencora",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 58
+ },
+ {
+  "company": "Smurfit Westrock",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 59
+ },
+ {
+  "company": "Amcor",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 60
+ },
+ {
+  "company": "Safe Fleet",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Material Handler"
+  ],
+  "rank": 61
+ },
+ {
+  "company": "Pattern",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 62
+ },
+ {
+  "company": "Premium Waters",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 63
+ },
+ {
+  "company": "TRIGO Global Quality Solutions",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver/Operator"
+  ],
+  "rank": 64
+ },
+ {
+  "company": "ThriftBooks",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver DAL",
+   "Forklift Driver PHX"
+  ],
+  "rank": 65
+ },
+ {
+  "company": "Monster Energy",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - 2nd Shift",
+   "Forklift Driver 3rd Shift"
+  ],
+  "rank": 66
+ },
+ {
+  "company": "Gerber moving and storage",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker",
+   "Warehouse Order Picker"
+  ],
+  "rank": 67
+ },
+ {
+  "company": "Turf Casa",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 68
+ },
+ {
+  "company": "Hillman",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Lead Order Picker",
+   "Order Picker I"
+  ],
+  "rank": 69
+ },
+ {
+  "company": "Priority Tire",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker - Warehouse Associate"
+  ],
+  "rank": 70
+ },
+ {
+  "company": "Brandt Industries Canada Ltd",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 71
+ },
+ {
+  "company": "S3 Group Ltd.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler",
+   "Material Handler - Shipper/Receiver"
+  ],
+  "rank": 72
+ },
+ {
+  "company": "Marketing Impact Limited",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 73
+ },
+ {
+  "company": "Waste Connections",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Recycling Material Handler and Operator"
+  ],
+  "rank": 74
+ },
+ {
+  "company": "Charlotte Products Ltd.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 75
+ },
+ {
+  "company": "Swish",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 76
+ },
+ {
+  "company": "Us Sabre Ltd.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 77
+ },
+ {
+  "company": "Echelon Supply and Service",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 78
+ },
+ {
+  "company": "Adaria Vending Services Limited",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 79
+ },
+ {
+  "company": "Genuine Parts Company",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 80
+ },
+ {
+  "company": "Vytal Filtration Technologies Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 81
+ },
+ {
+  "company": "Cardinal Health",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 82
+ },
+ {
+  "company": "Delta Intelligent Building Technologies  Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 83
+ },
+ {
+  "company": "Independent Mechanical Supply Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate, Scarborough"
+  ],
+  "rank": 84
+ },
+ {
+  "company": "Johnson Controls",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator",
+   "Forklift Operator I (Stand up)"
+  ],
+  "rank": 85
+ },
+ {
+  "company": "Fiera Foods Company",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator",
+   "Forklift operator"
+  ],
+  "rank": 86
+ },
+ {
+  "company": "Greenhouse",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 87
+ },
+ {
+  "company": "Nature's Touch Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Cariste / Forklift Operator"
+  ],
+  "rank": 88
+ },
+ {
+  "company": "CEVA Supply Chain Canada",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator CAN",
+   "Seasonal Forklift Operator"
+  ],
+  "rank": 89
+ },
+ {
+  "company": "Cooke Aquaculture Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping/Receiving - Forklift Operator",
+   "Shipping/Receiving \u2013 Forklift Operator"
+  ],
+  "rank": 90
+ },
+ {
+  "company": "Valleyview Co-op",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 91
+ },
+ {
+  "company": "Longo's",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker \u2013 Walkie/Rider Certified"
+  ],
+  "rank": 92
+ },
+ {
+  "company": "VF Corporation",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 2,
+  "signal_score": 23.1,
+  "labor_pain": 13.2,
+  "footprint": 9.9,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - Day Shift"
+  ],
+  "rank": 93
+ },
+ {
+  "company": "Silver Hills Bakery",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 22.9,
+  "labor_pain": 16.6,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 94
+ },
+ {
+  "company": "NT Temps Inc",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 22.9,
+  "labor_pain": 16.6,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift operator",
+   "Warehouse associate"
+  ],
+  "rank": 95
+ },
+ {
+  "company": "Charger Logistics Inc",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 22.9,
+  "labor_pain": 16.6,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Counterbalance Forklift Operator",
+   "Double Deep Reach Forklift Operator",
+   "Warehouse Associate"
+  ],
+  "rank": 96
+ },
+ {
+  "company": "Dexter",
+  "country": "CA",
+  "labor_postings": 3,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 22.9,
+  "labor_pain": 16.6,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Preparateur aux Commandes - Order Picker"
+  ],
+  "rank": 97
+ },
+ {
+  "company": "Saltworks Technologies",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 2,
+  "sites_hiring": 2,
+  "signal_score": 21.9,
+  "labor_pain": 8.3,
+  "footprint": 9.9,
+  "automation_ready": 3.7,
+  "combo": 0,
+  "sample_titles": [
+   "Controls and Automation Engineer",
+   "Warehouse Associate"
+  ],
+  "rank": 98
+ },
+ {
+  "company": "Ballard Power Systems Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 1,
+  "sites_hiring": 2,
+  "signal_score": 20.5,
+  "labor_pain": 8.3,
+  "footprint": 9.9,
+  "automation_ready": 2.3,
+  "combo": 0,
+  "sample_titles": [
+   "Logistics Coordinator & Material Handler (3month contract)",
+   "Manufacturing Controls Engineer/Specialist"
+  ],
+  "rank": 99
+ },
+ {
+  "company": "Propak Systems Ltd.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 1,
+  "sites_hiring": 2,
+  "signal_score": 20.5,
+  "labor_pain": 8.3,
+  "footprint": 9.9,
+  "automation_ready": 2.3,
+  "combo": 0,
+  "sample_titles": [
+   "Automation Engineer",
+   "Forklift Operator"
+  ],
+  "rank": 100
+ },
+ {
+  "company": "Nite Ize",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Materials Handler II"
+  ],
+  "rank": 101
+ },
+ {
+  "company": "Wavepoint Logistics",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 102
+ },
+ {
+  "company": "Atlas Copco Group",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Line Feeder/ Forklift Driver - Compressors (1st Shift)",
+   "Line Feeder/ Forklift Driver - Generators (1st Shift)"
+  ],
+  "rank": 103
+ },
+ {
+  "company": "Supplyone",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 104
+ },
+ {
+  "company": "Redbarn Pet Products",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver",
+   "Order Picker"
+  ],
+  "rank": 105
+ },
+ {
+  "company": "Allegiance Industries",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "1st Shift Forklift Driver",
+   "2nd Shift Forklift Driver"
+  ],
+  "rank": 106
+ },
+ {
+  "company": "Gordon Food Service",
+  "country": "US",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 107
+ },
+ {
+  "company": "AMPCO Manufacturers Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 108
+ },
+ {
+  "company": "Industrial Electric Manufacturing",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 109
+ },
+ {
+  "company": "CAD Railway Industries",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Manutentionnaire / Material Handler",
+   "Material Handler"
+  ],
+  "rank": 110
+ },
+ {
+  "company": "Moment Energy",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Materials Handler"
+  ],
+  "rank": 111
+ },
+ {
+  "company": "Marwood International Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Woodstock"
+  ],
+  "rank": 112
+ },
+ {
+  "company": "ThermoFisher Scientific",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler II"
+  ],
+  "rank": 113
+ },
+ {
+  "company": "EMCO Waterworks/EMCO Aqueduc",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler/Delivery Driver"
+  ],
+  "rank": 114
+ },
+ {
+  "company": "Mckeough Supply",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Delivery Driver / Material Handler"
+  ],
+  "rank": 115
+ },
+ {
+  "company": "Varius Business Solutions",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler / Forklift Operator"
+  ],
+  "rank": 116
+ },
+ {
+  "company": "WCD Global Inc",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 117
+ },
+ {
+  "company": "JL International",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 118
+ },
+ {
+  "company": "Westburne",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 119
+ },
+ {
+  "company": "Advatix, Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Temporary Forklift Operator",
+   "Temporary Warehouse Associate"
+  ],
+  "rank": 120
+ },
+ {
+  "company": "Classic Fire + Life Safety",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Driver - Warehouse Associate"
+  ],
+  "rank": 121
+ },
+ {
+  "company": "Can Art Aluminum Extrusion",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 122
+ },
+ {
+  "company": "Banas Stones",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 123
+ },
+ {
+  "company": "PeopleConnect Inc",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator",
+   "Forklift Operator ( Guelph)"
+  ],
+  "rank": 124
+ },
+ {
+  "company": "XTL Transport, Logistics, Distribution",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Evening"
+  ],
+  "rank": 125
+ },
+ {
+  "company": "Bimbo Canada",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator- Nights"
+  ],
+  "rank": 126
+ },
+ {
+  "company": "Hire Evolution Consulting",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Mississauga, ON"
+  ],
+  "rank": 127
+ },
+ {
+  "company": "VitalBio",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator (contract)"
+  ],
+  "rank": 128
+ },
+ {
+  "company": "Agropur",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator FT",
+   "Order Picker"
+  ],
+  "rank": 129
+ },
+ {
+  "company": "Metro Supply Chain",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Cherry Picker"
+  ],
+  "rank": 130
+ },
+ {
+  "company": "Vision Transport Group",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "FULL-TIME REACH / FORKLIFT OPERATOR"
+  ],
+  "rank": 131
+ },
+ {
+  "company": "4Sight Search Solutions Inc.",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Licensed Order Picker"
+  ],
+  "rank": 132
+ },
+ {
+  "company": "Giant Tiger",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker (Evenings)",
+   "Order Picker (Overnight)"
+  ],
+  "rank": 133
+ },
+ {
+  "company": "Loblaw Companies",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker (day/evening/night)",
+   "Order Picker (full time)"
+  ],
+  "rank": 134
+ },
+ {
+  "company": "Robinson",
+  "country": "CA",
+  "labor_postings": 2,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 19.4,
+  "labor_pain": 13.2,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipper/Receiver",
+   "Shipper/Receiver (afternoon shift)"
+  ],
+  "rank": 135
+ },
+ {
+  "company": "OPUS IVS INC",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Material Handler"
+  ],
+  "rank": 136
+ },
+ {
+  "company": "Nyhus Enterprises LLC",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator / Material Handler-Second Shift"
+  ],
+  "rank": 137
+ },
+ {
+  "company": "Thern",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 138
+ },
+ {
+  "company": "B. BRAUN MEDICAL  INC",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - 12Hr. Green Day Shift"
+  ],
+  "rank": 139
+ },
+ {
+  "company": "Condux International Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 140
+ },
+ {
+  "company": "Charles Kirchner And Son Inc",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Delivery Driver and Material Handler Building Materials / Lumberyard"
+  ],
+  "rank": 141
+ },
+ {
+  "company": "Wavepoint3pl",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler North East PA (Shift: 5am - 5pm)"
+  ],
+  "rank": 142
+ },
+ {
+  "company": "Mancan",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 143
+ },
+ {
+  "company": "Mestek, Inc",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 144
+ },
+ {
+  "company": "Diesel Direct Inc",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 145
+ },
+ {
+  "company": "R & D SPECIALTIES LLC.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 146
+ },
+ {
+  "company": "Ashley | The Wellsville Group",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 147
+ },
+ {
+  "company": "Puget Sound Pipe & Supply CO",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 148
+ },
+ {
+  "company": "Zumbrota Drivetrain",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Receiving"
+  ],
+  "rank": 149
+ },
+ {
+  "company": "POTTER WEBSTER COMPANY",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Delivery Driver / Warehouse Associate"
+  ],
+  "rank": 150
+ },
+ {
+  "company": "Green Mountain Electric Supply",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Londonderry, NH"
+  ],
+  "rank": 151
+ },
+ {
+  "company": "Bath&Body Works",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 152
+ },
+ {
+  "company": "Novolex Corporate",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 153
+ },
+ {
+  "company": "Neovia Logistics",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "2nd shift Forklift driver"
+  ],
+  "rank": 154
+ },
+ {
+  "company": "System One",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 155
+ },
+ {
+  "company": "Cardinal Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 156
+ },
+ {
+  "company": "Mystic Logistics",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 157
+ },
+ {
+  "company": "Integrity Trade Services",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 158
+ },
+ {
+  "company": "Accupac",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 159
+ },
+ {
+  "company": "Fuyao Glass America",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 160
+ },
+ {
+  "company": "Georgia-Pacific",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 161
+ },
+ {
+  "company": "Koch",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 162
+ },
+ {
+  "company": "Peterson Farms",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 163
+ },
+ {
+  "company": "HF Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 164
+ },
+ {
+  "company": "Famous Footwear",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver A"
+  ],
+  "rank": 165
+ },
+ {
+  "company": "Sazerac Company",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 166
+ },
+ {
+  "company": "SIGNATURE SOLAR",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 167
+ },
+ {
+  "company": "Stir Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 168
+ },
+ {
+  "company": "Sms Infocomm Corporation",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 169
+ },
+ {
+  "company": "Teasdale Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 170
+ },
+ {
+  "company": "Xpress Hire",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Drivers"
+  ],
+  "rank": 171
+ },
+ {
+  "company": "Corporate Support & Fulfillment",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 172
+ },
+ {
+  "company": "CT Polymers",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 173
+ },
+ {
+  "company": "Parts Town",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 174
+ },
+ {
+  "company": "Forest River",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 175
+ },
+ {
+  "company": "SA Recycling",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 176
+ },
+ {
+  "company": "Serv-U-Success",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 177
+ },
+ {
+  "company": "Veneer Technologies",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver"
+  ],
+  "rank": 178
+ },
+ {
+  "company": "Emerson",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Forklift Driver - 2nd shift"
+  ],
+  "rank": 179
+ },
+ {
+  "company": "Hormel Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "HRL-Forklift Drivers and Production Professionals 2026"
+  ],
+  "rank": 180
+ },
+ {
+  "company": "FIDELITONE",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Equipment Operator/Pick Pack"
+  ],
+  "rank": 181
+ },
+ {
+  "company": "Techlink Systems Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver I"
+  ],
+  "rank": 182
+ },
+ {
+  "company": "GableStone",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver / Loader"
+  ],
+  "rank": 183
+ },
+ {
+  "company": "Boxercraft Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - Receiver"
+  ],
+  "rank": 184
+ },
+ {
+  "company": "G.Z.Q.S.O.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver- Production"
+  ],
+  "rank": 185
+ },
+ {
+  "company": "Producers Rice Mill",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - Packing"
+  ],
+  "rank": 186
+ },
+ {
+  "company": "LACOSTA Facility Support Services",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver (Recruiting)"
+  ],
+  "rank": 187
+ },
+ {
+  "company": "Fruit of the Loom",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "BD Forklift Driver"
+  ],
+  "rank": 188
+ },
+ {
+  "company": "Clay-Ingels Master",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Brickyard Forklift Driver"
+  ],
+  "rank": 189
+ },
+ {
+  "company": "Classic Salads",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping Forklift Driver"
+  ],
+  "rank": 190
+ },
+ {
+  "company": "Premium Guardorporated",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver (58318)"
+  ],
+  "rank": 191
+ },
+ {
+  "company": "Sicar Farms",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver (4808)"
+  ],
+  "rank": 192
+ },
+ {
+  "company": "Jetro / Restaurant Depot",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Hilo/Forklift Driver"
+  ],
+  "rank": 193
+ },
+ {
+  "company": "Dicastal North America",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Receiving Forklift Driver"
+  ],
+  "rank": 194
+ },
+ {
+  "company": "THYSSENKRUPP",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "TTT - Forklift Driver"
+  ],
+  "rank": 195
+ },
+ {
+  "company": "Keter North America",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler/Forklift Driver"
+  ],
+  "rank": 196
+ },
+ {
+  "company": "Fresh Express",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - 2nd shift -"
+  ],
+  "rank": 197
+ },
+ {
+  "company": "RR Donnelley",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver 2nd Shift"
+  ],
+  "rank": 198
+ },
+ {
+  "company": "Arcot Manufacturing Corporation",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver / Warehouse Associate"
+  ],
+  "rank": 199
+ },
+ {
+  "company": "PEERLESS INDUSTRIES INC.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping Clerk Forklift Driver"
+  ],
+  "rank": 200
+ },
+ {
+  "company": "QPI Packaging Solutions",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver \u2013 Shipping & Receiving"
+  ],
+  "rank": 201
+ },
+ {
+  "company": "Artiflex Manufacturing",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver- 1st Shift"
+  ],
+  "rank": 202
+ },
+ {
+  "company": "Seattle-Tacoma Box Company",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping/Receiving Forklift Driver"
+  ],
+  "rank": 203
+ },
+ {
+  "company": "Alleguard",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "1st Shift Forklift Driver"
+  ],
+  "rank": 204
+ },
+ {
+  "company": "E&E Mfg of Tennessee",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver (Automotive Manufacturing)"
+  ],
+  "rank": 205
+ },
+ {
+  "company": "Sunset",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver A1 (Inventory)"
+  ],
+  "rank": 206
+ },
+ {
+  "company": "Kenco",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Driver - Day Shift"
+  ],
+  "rank": 207
+ },
+ {
+  "company": "Clayton Homes",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "1st Shift Forklift Driver"
+  ],
+  "rank": 208
+ },
+ {
+  "company": "Haliburton International",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Forklift Driver"
+  ],
+  "rank": 209
+ },
+ {
+  "company": "Holman Logistics",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warhouse Forklift Driver Lead"
+  ],
+  "rank": 210
+ },
+ {
+  "company": "Prysmian",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Stand Up Forklift Driver"
+  ],
+  "rank": 211
+ },
+ {
+  "company": "Fabuwood Cabinetry Corp",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Experienced Reach Truck, Turret Truck & Order Picker Operators"
+  ],
+  "rank": 212
+ },
+ {
+  "company": "Drexel Building Supply",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 213
+ },
+ {
+  "company": "Coca-Cola Southwest Beverages",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker and Loader"
+  ],
+  "rank": 214
+ },
+ {
+  "company": "SIMOS",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator- Cherry Picker/Order Picker"
+  ],
+  "rank": 215
+ },
+ {
+  "company": "EBSCO Information Services",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate, Order Pickers Temporary"
+  ],
+  "rank": 216
+ },
+ {
+  "company": "Owens & Minor",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Care Room Order Picker II"
+  ],
+  "rank": 217
+ },
+ {
+  "company": "Talley",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 218
+ },
+ {
+  "company": "Mid-Ohio Food Collective",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 219
+ },
+ {
+  "company": "ResourceMFG",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 220
+ },
+ {
+  "company": "Kerusso Activewear, Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Pickers"
+  ],
+  "rank": 221
+ },
+ {
+  "company": "West Music Company",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 222
+ },
+ {
+  "company": "Carlton",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 223
+ },
+ {
+  "company": "Element2 Group",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 224
+ },
+ {
+  "company": "QEP Co",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 225
+ },
+ {
+  "company": "SCA Pharmaceuticals",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 226
+ },
+ {
+  "company": "BEECH-NUT NUTRITION COMPANY",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 227
+ },
+ {
+  "company": "Sterling Products",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 228
+ },
+ {
+  "company": "Ferguson Enterprises, LLC.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "2nd Shift Order Picker (4pm Start)"
+  ],
+  "rank": 229
+ },
+ {
+  "company": "Industrial Supply",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 230
+ },
+ {
+  "company": "Atlanta Beverage Co",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 231
+ },
+ {
+  "company": "Mega Force",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker Operator"
+  ],
+  "rank": 232
+ },
+ {
+  "company": "Salt Lake Restaurant Supply Utah",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 233
+ },
+ {
+  "company": "URBN Inc USA",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker Operator"
+  ],
+  "rank": 234
+ },
+ {
+  "company": "Ngroup, Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker Machine"
+  ],
+  "rank": 235
+ },
+ {
+  "company": "AUTOMOTIVE PARTS HEADQUARTERS",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 236
+ },
+ {
+  "company": "Highland Baking Company",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Frozen Order Picker"
+  ],
+  "rank": 237
+ },
+ {
+  "company": "Zip Beverage",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 238
+ },
+ {
+  "company": "General Trading Co.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "WAREHOUSEMAN - Order Picker"
+  ],
+  "rank": 239
+ },
+ {
+  "company": "ABM Industries",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "WAREHOUSE ORDER PICKER"
+  ],
+  "rank": 240
+ },
+ {
+  "company": "Stauffer Manufacturing",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 241
+ },
+ {
+  "company": "Workwear Outfitters",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker/Stocker"
+  ],
+  "rank": 242
+ },
+ {
+  "company": "Quality Brands",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 243
+ },
+ {
+  "company": "ABM",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 244
+ },
+ {
+  "company": "Kroger",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Mfg Order Picker"
+  ],
+  "rank": 245
+ },
+ {
+  "company": "Kentucky Eagle",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker"
+  ],
+  "rank": 246
+ },
+ {
+  "company": "Bergen Logistics",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Picking Driver (Order Picker)"
+  ],
+  "rank": 247
+ },
+ {
+  "company": "North Coast Seafoods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Lead Freezer Order Picker"
+  ],
+  "rank": 248
+ },
+ {
+  "company": "Weaver's of Wellsville",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Order Picker"
+  ],
+  "rank": 249
+ },
+ {
+  "company": "MAT Holdings, Inc",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker 2nd Shift"
+  ],
+  "rank": 250
+ },
+ {
+  "company": "JBS Foods",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "3Rd Shift Order Picker"
+  ],
+  "rank": 251
+ },
+ {
+  "company": "Prairie Farms Dairy",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Full Time Order Picker"
+  ],
+  "rank": 252
+ },
+ {
+  "company": "Piping Rock",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker 2nd Shift"
+  ],
+  "rank": 253
+ },
+ {
+  "company": "TileBar",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Order Picker - PIT"
+  ],
+  "rank": 254
+ },
+ {
+  "company": "Jbs Usa",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "3Rd Shift Order Picker"
+  ],
+  "rank": 255
+ },
+ {
+  "company": "Urban Outfitters, Inc.",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "URBN Order Picker Operator"
+  ],
+  "rank": 256
+ },
+ {
+  "company": "PACE Supply",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker (Distribution Center)"
+  ],
+  "rank": 257
+ },
+ {
+  "company": "WARN INDUSTRIES",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Distribution I - Order Picker"
+  ],
+  "rank": 258
+ },
+ {
+  "company": "Hawaiian Housewares, LLC",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Generalist/ Order Picker"
+  ],
+  "rank": 259
+ },
+ {
+  "company": "Airgas",
+  "country": "US",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate- Order Picker"
+  ],
+  "rank": 260
+ },
+ {
+  "company": "JFE Shoji Power Canada Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 261
+ },
+ {
+  "company": "Wesgar Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 262
+ },
+ {
+  "company": "Herd North America",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 263
+ },
+ {
+  "company": "ABC Industries",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 264
+ },
+ {
+  "company": "Safran",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 265
+ },
+ {
+  "company": "Tech-Wood Building Components Ltd",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 266
+ },
+ {
+  "company": "Badger Daylighting Corp",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Materials Handler"
+  ],
+  "rank": 267
+ },
+ {
+  "company": "Parrish & Heimbecker Limited",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 268
+ },
+ {
+  "company": "P&H Milling Group, a div of P&H, Ltd",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 269
+ },
+ {
+  "company": "ODL",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 270
+ },
+ {
+  "company": "EST\u00c9E LAUDER COMPANIES",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 271
+ },
+ {
+  "company": "DSV - Global Transport and Logistics",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 272
+ },
+ {
+  "company": "214 Bayview Drive",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 273
+ },
+ {
+  "company": "HPS",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 274
+ },
+ {
+  "company": "Mobis Parts Canada Corporation",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 275
+ },
+ {
+  "company": "Smartrend Manufacturing Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 276
+ },
+ {
+  "company": "Midfield Valve & Supply",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 277
+ },
+ {
+  "company": "Copeland",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 278
+ },
+ {
+  "company": "Kane Veterinary Supplies",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 279
+ },
+ {
+  "company": "Congebec Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 280
+ },
+ {
+  "company": "Bracco",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 281
+ },
+ {
+  "company": "Quantum Lifecycle Partners LP",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 282
+ },
+ {
+  "company": "ADI Global Distribution",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 283
+ },
+ {
+  "company": "Resideo",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 284
+ },
+ {
+  "company": "Fenelon Falls Home Hardware",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 285
+ },
+ {
+  "company": "GGS Tent Rentals",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler"
+  ],
+  "rank": 286
+ },
+ {
+  "company": "PaperWorks Industries",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping Material Handler"
+  ],
+  "rank": 287
+ },
+ {
+  "company": "IPEX",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Scarborough, ON"
+  ],
+  "rank": 288
+ },
+ {
+  "company": "Urban Impact Recycling",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Material Handler"
+  ],
+  "rank": 289
+ },
+ {
+  "company": "Leonardo DRS, Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler-Inventory"
+  ],
+  "rank": 290
+ },
+ {
+  "company": "IDEAL Industries, Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler I"
+  ],
+  "rank": 291
+ },
+ {
+  "company": "Woodstock",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Manufacturing)"
+  ],
+  "rank": 292
+ },
+ {
+  "company": "Steel Technologies Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Manufacturing)"
+  ],
+  "rank": 293
+ },
+ {
+  "company": "Timberdale Supply",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler- Sawmill"
+  ],
+  "rank": 294
+ },
+ {
+  "company": "Stream-Flo Industries Career",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Material Handler"
+  ],
+  "rank": 295
+ },
+ {
+  "company": "New Flyer",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Forklift"
+  ],
+  "rank": 296
+ },
+ {
+  "company": "Groupe Touchette",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Whitby (Temporary)"
+  ],
+  "rank": 297
+ },
+ {
+  "company": "Ippolito",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler Night Shift"
+  ],
+  "rank": 298
+ },
+ {
+  "company": "Payzant Building Products",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Drywall Carrier / Materials Handler"
+  ],
+  "rank": 299
+ },
+ {
+  "company": "Polycorp",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Day Shift)"
+  ],
+  "rank": 300
+ },
+ {
+  "company": "Honeywell Aerospace",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler - Level 2"
+  ],
+  "rank": 301
+ },
+ {
+  "company": "Tile + Stone Source",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Worker - Materials Handler"
+  ],
+  "rank": 302
+ },
+ {
+  "company": "TG Minto Corporation",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Back up Material Handler"
+  ],
+  "rank": 303
+ },
+ {
+  "company": "VDart Inc",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Lab Material Handler (shipping/packing)"
+  ],
+  "rank": 304
+ },
+ {
+  "company": "Logoplaste",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler / manutentionnaire de materiaux"
+  ],
+  "rank": 305
+ },
+ {
+  "company": "Coilplus Inc",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler- Mid (Crane Operator)"
+  ],
+  "rank": 306
+ },
+ {
+  "company": "Carpenter",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Tow Motor Operator (Material Handler)"
+  ],
+  "rank": 307
+ },
+ {
+  "company": "Mat\u00e9riaux SMB Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Storage Worker - Material Handlers (75101)"
+  ],
+  "rank": 308
+ },
+ {
+  "company": "Linamar",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Material Handler (Forklift Driver) - Night Shift"
+  ],
+  "rank": 309
+ },
+ {
+  "company": "Canadian Builders and Contractors Supply",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Delivery Material Handler/Roof Loader (90021)"
+  ],
+  "rank": 310
+ },
+ {
+  "company": "Plainsman Mfg. Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Saw Operator/Material Handler - Day Shift"
+  ],
+  "rank": 311
+ },
+ {
+  "company": "CleanHarbors",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Entry Level Material Handler & Route Driver"
+  ],
+  "rank": 312
+ },
+ {
+  "company": "Clean Harbors",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Entry Level Material Handler & Route Driver"
+  ],
+  "rank": 313
+ },
+ {
+  "company": "Reliable Parts",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 314
+ },
+ {
+  "company": "Cooper's",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 315
+ },
+ {
+  "company": "Legrand",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 316
+ },
+ {
+  "company": "Store 457",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 317
+ },
+ {
+  "company": "Canadian Tire Kanata",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 318
+ },
+ {
+  "company": "Spark Power",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 319
+ },
+ {
+  "company": "Fitzii Organic",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 320
+ },
+ {
+  "company": "Veterinary Purchasing Co. Ltd.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 321
+ },
+ {
+  "company": "De Haviland Aircraft of Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 322
+ },
+ {
+  "company": "Proto3000",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 323
+ },
+ {
+  "company": "Retail and Dining Positions",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 324
+ },
+ {
+  "company": "AdeptAg",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 325
+ },
+ {
+  "company": "FIL Delivery",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 326
+ },
+ {
+  "company": "Auto Electric Service",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 327
+ },
+ {
+  "company": "D&H Distributing",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 328
+ },
+ {
+  "company": "Canadian Tire - Bayers Lake, Halifax",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 329
+ },
+ {
+  "company": "Savers / Value Village",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 330
+ },
+ {
+  "company": "Swish Maintenance Limited",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 331
+ },
+ {
+  "company": "Network Wireless Solutions",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate (ON)"
+  ],
+  "rank": 332
+ },
+ {
+  "company": "O'Dell HVAC Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 333
+ },
+ {
+  "company": "RPI Consulting Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 334
+ },
+ {
+  "company": "JD Sports",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 335
+ },
+ {
+  "company": "Incora",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 336
+ },
+ {
+  "company": "Grand & Toy",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 337
+ },
+ {
+  "company": "Brennan Industries",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 338
+ },
+ {
+  "company": "Proax Technologies",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 339
+ },
+ {
+  "company": "CONMED Corporation",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 340
+ },
+ {
+  "company": "Decotec",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 341
+ },
+ {
+  "company": "Sporting Life Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 342
+ },
+ {
+  "company": "Lordco Home",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 343
+ },
+ {
+  "company": "Bureau Veritas",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 344
+ },
+ {
+  "company": "Hercules Dartmouth",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 345
+ },
+ {
+  "company": "Sinclair Supply",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 346
+ },
+ {
+  "company": "IDN-Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 347
+ },
+ {
+  "company": "GoBolt",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 348
+ },
+ {
+  "company": "Tessco, LLC",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 349
+ },
+ {
+  "company": "Foundation Building Materials, LLC",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 350
+ },
+ {
+  "company": "Wolseley",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 351
+ },
+ {
+  "company": "Ecolab",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 352
+ },
+ {
+  "company": "Turolight",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 353
+ },
+ {
+  "company": "HI FRESH INTERNATIONAL LTD.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "warehouse associate"
+  ],
+  "rank": 354
+ },
+ {
+  "company": "A2E Logistics Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 355
+ },
+ {
+  "company": "Ruito Trading Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 356
+ },
+ {
+  "company": "GIVING SMILE INC.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 357
+ },
+ {
+  "company": "Second Closet",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 358
+ },
+ {
+  "company": "RS Breakers and Controls Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 359
+ },
+ {
+  "company": "Boiling Point Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate"
+  ],
+  "rank": 360
+ },
+ {
+  "company": "Transport Riviere-du-Loup",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 361
+ },
+ {
+  "company": "Highland Van & Storage Ltd.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 362
+ },
+ {
+  "company": "Friendlier",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 363
+ },
+ {
+  "company": "Geanel Restaurant Supplies",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 364
+ },
+ {
+  "company": "Fastenal Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 365
+ },
+ {
+  "company": "Enviroflex International Inc",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse associate"
+  ],
+  "rank": 366
+ },
+ {
+  "company": "Benjamin Moore & Co",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate I"
+  ],
+  "rank": 367
+ },
+ {
+  "company": "White Cap Canada Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate I"
+  ],
+  "rank": 368
+ },
+ {
+  "company": "Elevate",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Days"
+  ],
+  "rank": 369
+ },
+ {
+  "company": "Fountain Tire",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate, Saskatoon"
+  ],
+  "rank": 370
+ },
+ {
+  "company": "Tramontina, USA Inc",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "TCAN - Warehouse Associate"
+  ],
+  "rank": 371
+ },
+ {
+  "company": "Ben-Mor",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "LOGISTICS - WAREHOUSE ASSOCIATE"
+  ],
+  "rank": 372
+ },
+ {
+  "company": "London Drugs Limited",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Casual"
+  ],
+  "rank": 373
+ },
+ {
+  "company": "Best Buy Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Seasonal Warehouse Associate"
+  ],
+  "rank": 374
+ },
+ {
+  "company": "Rogers",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate-Day"
+  ],
+  "rank": 375
+ },
+ {
+  "company": "Victaulic",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Sudbury, ON"
+  ],
+  "rank": 376
+ },
+ {
+  "company": "Warehousing & Distribution.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Receiving Warehouse Associate"
+  ],
+  "rank": 377
+ },
+ {
+  "company": "NCS International",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Edmonton"
+  ],
+  "rank": 378
+ },
+ {
+  "company": "HelloFresh",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate (PM)"
+  ],
+  "rank": 379
+ },
+ {
+  "company": "OMS / Royal Drugs",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate - Ottawa"
+  ],
+  "rank": 380
+ },
+ {
+  "company": "National Carwash Solutions Canada, Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate-CAN"
+  ],
+  "rank": 381
+ },
+ {
+  "company": "DGI Supply Career",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate I"
+  ],
+  "rank": 382
+ },
+ {
+  "company": "ZO Skin Health Canada ULC",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "CAN Warehouse Associate"
+  ],
+  "rank": 383
+ },
+ {
+  "company": "HUNGRY Marketplace",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate/Driver"
+  ],
+  "rank": 384
+ },
+ {
+  "company": "7\u2011Eleven",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Parts Warehouse Associates"
+  ],
+  "rank": 385
+ },
+ {
+  "company": "Clayburn Services LTD",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Canada - Warehouse Associate"
+  ],
+  "rank": 386
+ },
+ {
+  "company": "Fresh Start Foods",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Associate Night"
+  ],
+  "rank": 387
+ },
+ {
+  "company": "Fred Surridge Ltd",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Counter and Warehouse Associate"
+  ],
+  "rank": 388
+ },
+ {
+  "company": "North American Freight Forwarding Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Dock Staff Associate (Forklift Operator)"
+  ],
+  "rank": 389
+ },
+ {
+  "company": "Black Fly Beverage Co.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 390
+ },
+ {
+  "company": "Vitrum Glass Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 391
+ },
+ {
+  "company": "American Iron and Metal",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 392
+ },
+ {
+  "company": "United Lumber Home Hardware Building Ctr",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 393
+ },
+ {
+  "company": "Nationwide Auto Glass",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 394
+ },
+ {
+  "company": "eCycle",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "FORKLIFT OPERATOR-ON"
+  ],
+  "rank": 395
+ },
+ {
+  "company": "Galaxy HR",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 396
+ },
+ {
+  "company": "Doman Building Materials Group Ltd",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 397
+ },
+ {
+  "company": "Pacific Salmon Industries Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 398
+ },
+ {
+  "company": "Mountain View Packers Ltd",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift operator"
+  ],
+  "rank": 399
+ },
+ {
+  "company": "Ice River Sustainable Solutions",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 400
+ },
+ {
+  "company": "Apex Aluminum Extrusions",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 401
+ },
+ {
+  "company": "All-Fab Building Components LP",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 402
+ },
+ {
+  "company": "Canadian Recycling Limited",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift operator"
+  ],
+  "rank": 403
+ },
+ {
+  "company": "Modular Assembly Shop, Purchasing & Recieving",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 404
+ },
+ {
+  "company": "ZyTech Building Systems LP, Alberta",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "FORKLIFT OPERATOR"
+  ],
+  "rank": 405
+ },
+ {
+  "company": "Emterra Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 406
+ },
+ {
+  "company": "Sibelco",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 407
+ },
+ {
+  "company": "Americold",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 408
+ },
+ {
+  "company": "Tempur Sealy International",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 409
+ },
+ {
+  "company": "Great Little Box Company",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 410
+ },
+ {
+  "company": "Irving Shipbuilding",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 411
+ },
+ {
+  "company": "White River Forest Products LP",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift operator"
+  ],
+  "rank": 412
+ },
+ {
+  "company": "eCycle Solutions",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 413
+ },
+ {
+  "company": "G Visser & Sons Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift operator"
+  ],
+  "rank": 414
+ },
+ {
+  "company": "sgsconsulting",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator"
+  ],
+  "rank": 415
+ },
+ {
+  "company": "Nortera Foods Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "WAREHOUSE FORKLIFT OPERATOR"
+  ],
+  "rank": 416
+ },
+ {
+  "company": "Triumph Group of Companies",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Worker / Forklift Operator"
+  ],
+  "rank": 417
+ },
+ {
+  "company": "Cerelia Bakery Canada LP",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Afternoon Shift"
+  ],
+  "rank": 418
+ },
+ {
+  "company": "OptiHunt Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Dock Stocker Forklift Operator"
+  ],
+  "rank": 419
+ },
+ {
+  "company": "Hands HR",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator / General Labour"
+  ],
+  "rank": 420
+ },
+ {
+  "company": "Thrive Foods",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator/Warehouse Worker"
+  ],
+  "rank": 421
+ },
+ {
+  "company": "Rona, Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "FORKLIFT OPERATOR (Evening Shift)"
+  ],
+  "rank": 422
+ },
+ {
+  "company": "Tandem Trans Solutions Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "forklift operator- Double deep reach"
+  ],
+  "rank": 423
+ },
+ {
+  "company": "Steele's Transportation Group",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator (Material Handling) - Edmonton"
+  ],
+  "rank": 424
+ },
+ {
+  "company": "Paradoxx",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Additional Job Title 001"
+  ],
+  "rank": 425
+ },
+ {
+  "company": "Arby's",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Operator - Additional Job Title 001"
+  ],
+  "rank": 426
+ },
+ {
+  "company": "Sunrise Soya Foods",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 427
+ },
+ {
+  "company": "Sunrise Farms",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 428
+ },
+ {
+  "company": "Patrick Morin",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker"
+  ],
+  "rank": 429
+ },
+ {
+  "company": "Bosch Truck Group / Bosch Idealease",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Parts Order Picker"
+  ],
+  "rank": 430
+ },
+ {
+  "company": "Bosch Truck Group Inc. - Red Deer",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Parts Order Picker"
+  ],
+  "rank": 431
+ },
+ {
+  "company": "Cargill",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Forklift Order Picker"
+  ],
+  "rank": 432
+ },
+ {
+  "company": "Fastco",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Shipping - Order Picker AB"
+  ],
+  "rank": 433
+ },
+ {
+  "company": "SNS Activewear Canada",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Machine Operator - Order Picker (Woodbridge, ON)"
+  ],
+  "rank": 434
+ },
+ {
+  "company": "UpSourced HR",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Timber-Tech Building Solutions - Order Picker"
+  ],
+  "rank": 435
+ },
+ {
+  "company": "Greenhouse Juice Co.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Picker (Stager) for Greenhouse Juice Co."
+  ],
+  "rank": 436
+ },
+ {
+  "company": "Allegion",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Warehouse Worker"
+  ],
+  "rank": 437
+ },
+ {
+  "company": "Bunzl Canada Inc.",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Order Selector-Evening Shift"
+  ],
+  "rank": 438
+ },
+ {
+  "company": "Distribution stox",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "Cariste/manutentionnaire"
+  ],
+  "rank": 439
+ },
+ {
+  "company": "H&M",
+  "country": "CA",
+  "labor_postings": 1,
+  "industrial_automation_postings": 0,
+  "sites_hiring": 1,
+  "signal_score": 14.6,
+  "labor_pain": 8.3,
+  "footprint": 6.2,
+  "automation_ready": 0.0,
+  "combo": 0,
+  "sample_titles": [
+   "DC Associate Driver - Inbound 1st Shift (Tier 1)"
+  ],
+  "rank": 440
+ }
+]

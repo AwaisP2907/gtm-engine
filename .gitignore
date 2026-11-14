@@ -1,0 +1,8 @@
+.env
+*.duckdb
+data/_tmp_*
+__pycache__/
+data/clay_enrichment.json
+data/hubspot_upsert.json
+data/hubspot_enrich_payload.json
+data/hs_ai_payload.js

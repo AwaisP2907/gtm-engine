@@ -1,0 +1,454 @@
+{
+  "name": "GTM Engine - Route scored accounts",
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "mapper": {},
+      "parameters": {
+        "hook": "<your webhook id>",
+        "maxResults": 1
+      },
+      "metadata": {
+        "designer": {
+          "name": "Scored account in (from AI layer)"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "module": "builtin:BasicRouter",
+      "version": 1,
+      "mapper": null,
+      "routes": [
+        {
+          "flow": [
+            {
+              "id": 10,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "{{SLACK_WEBHOOK_URL}}",
+                "data": "{\"text\": \":dart: *Tier A - Enterprise -> AE* | *{{1.company}}* (fit {{1.score}}/100)\\n{{1.reasoning_esc}}\\n*Brief*\\n{{1.brief_esc}}\\n*Lead contact:* {{1.contact_esc}}\\n<{{1.hubspot_url}}|Open in HubSpot>\"}",
+                "method": "post",
+                "headers": [],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "Slack alert"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 100,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _Slack alert_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 101,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ],
+              "filter": {
+                "name": "Tier A + Enterprise",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{1.tier}}",
+                      "b": "A",
+                      "o": "text:equal"
+                    },
+                    {
+                      "a": "{{1.segment}}",
+                      "b": "enterprise",
+                      "o": "text:equal"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "id": 11,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/companies/{{1.hubspot_id}}",
+                "data": "{\"properties\": {\"gtm_engine_status\": \"routed\", \"gtm_routing_owner\": \"AE - Enterprise\"}}",
+                "method": "patch",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: mark routed"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 110,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _HubSpot update_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 111,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flow": [
+            {
+              "id": 20,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "{{SLACK_WEBHOOK_URL}}",
+                "data": "{\"text\": \":zap: *Tier A - {{1.segment_label}} -> SDR* | *{{1.company}}* (fit {{1.score}}/100)\\n{{1.reasoning_esc}}\\n*First line ready:* {{1.first_line_esc}}\\n*Contact:* {{1.contact_esc}}\\n<{{1.hubspot_url}}|Open in HubSpot>\"}",
+                "method": "post",
+                "headers": [],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "Slack alert"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 120,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _Slack alert_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 121,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ],
+              "filter": {
+                "name": "Tier A + Mid-Market/SMB/Unknown",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{1.tier}}",
+                      "b": "A",
+                      "o": "text:equal"
+                    },
+                    {
+                      "a": "{{1.segment}}",
+                      "b": "enterprise",
+                      "o": "text:notequal"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "id": 21,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/companies/{{1.hubspot_id}}",
+                "data": "{\"properties\": {\"gtm_engine_status\": \"routed\", \"gtm_routing_owner\": \"SDR - Mid-Market\"}}",
+                "method": "patch",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: mark routed"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 130,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _HubSpot update_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 131,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flow": [
+            {
+              "id": 30,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/companies/{{1.hubspot_id}}",
+                "data": "{\"properties\": {\"gtm_engine_status\": \"routed\", \"gtm_routing_owner\": \"Nurture sequence\"}}",
+                "method": "patch",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: mark routed"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 140,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _HubSpot update_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 141,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ],
+              "filter": {
+                "name": "Tier B -> nurture",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{1.tier}}",
+                      "b": "B",
+                      "o": "text:equal"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "flow": [
+            {
+              "id": 40,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/companies/{{1.hubspot_id}}",
+                "data": "{\"properties\": {\"gtm_engine_status\": \"routed\", \"gtm_routing_owner\": \"No action (C/DQ)\"}}",
+                "method": "patch",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: mark routed"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 150,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine error* in step _HubSpot update_ for *{{1.company}}* ({{1.account_key}}). Record skipped. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 151,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ],
+              "filter": {
+                "name": "Tier C / DQ -> park",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{1.tier}}",
+                      "b": "A",
+                      "o": "text:notequal"
+                    },
+                    {
+                      "a": "{{1.tier}}",
+                      "b": "B",
+                      "o": "text:notequal"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "instant": true,
+    "version": 1,
+    "scenario": {
+      "roundtrips": 1,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "autoCommitTriggerLast": true,
+      "sequential": false,
+      "confidential": false,
+      "dataloss": false,
+      "dlq": false,
+      "freshVariables": false
+    }
+  }
+}

@@ -1,0 +1,225 @@
+<meta name="dash-one-writer">
+<style>
+.ge{font-family:var(--font-anthropic-sans);color:var(--color-fg);display:flex;flex-direction:column;gap:var(--cds-gap-xl)}
+.ge h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0}
+.ge h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0 0 var(--cds-gap-xs)}
+.ge .sub{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:var(--cds-gap-xs) 0 0}
+.ge .take{font-size:var(--cds-font-size-body);margin:var(--cds-gap-sm) 0 0;max-width:62ch;line-height:1.5}
+.ge .take b{font-variant-numeric:tabular-nums}
+.ge .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:var(--cds-gap-md)}
+.ge .card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg)}
+.ge .tile .v{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;line-height:1.1}
+.ge .tile .l{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin-top:var(--cds-gap-xs)}
+.ge .note{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:var(--cds-gap-xs) 0 var(--cds-gap-md)}
+.ge .chart{position:relative;min-height:220px}
+.ge .tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:var(--cds-radius);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);white-space:nowrap}
+.ge .chart text{font-size:var(--cds-font-size-caption);fill:var(--cds-text-secondary)}
+.ge .chart text.val{fill:var(--color-fg);font-variant-numeric:tabular-nums}
+.ge .wrap{overflow-x:auto}
+.ge table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.ge th{text-align:left;color:var(--color-fg-muted);font-weight:var(--cds-font-weight-medium);padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);white-space:nowrap}
+.ge td{padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line)}
+.ge td.n,.ge th.n{text-align:right}
+.ge .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--cds-gap-lg)}
+.ge .pill{display:inline-block;padding:0 var(--cds-pad-xs);border-radius:var(--cds-radius);border:1px solid var(--color-border-line);font-size:var(--cds-font-size-caption)}
+.ge .down{color:var(--color-bad)}.ge .up{color:var(--color-ok)}
+.ge details{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.ge details p{margin:var(--cds-gap-xs) 0;max-width:72ch;line-height:1.5}
+[data-dash-source-state=refreshing]{opacity:.5}
+</style>
+
+<div class="ge">
+  <header id="title">
+    <h1>GTM Engine — Pipeline Dashboard</h1>
+    <p class="sub">Brava Robotics (demo seller): humanoid robots for warehouse tote handling · Snapshot of one engine run, Nov 14, 2026</p>
+    <p class="take" id="takeaway">Of <b data-draw="t-scanned" data-source="funnel" data-field="n" data-where="step=1">—</b> North American companies hiring warehouse labor, the engine routed <b data-draw="t-tiera" data-source="funnel" data-field="n" data-where="step=5">—</b> as Tier A. Those accounts average <b data-draw="t-labor" data-source="signal_drivers" data-field="avg_labor_postings" data-where="tier=A">—</b> open material-handling roles across <b data-draw="t-sites" data-source="signal_drivers" data-field="avg_sites_hiring" data-where="tier=A">—</b> sites, versus <b data-draw="t-laborb" data-source="signal_drivers" data-field="avg_labor_postings" data-where="tier=B">—</b> for Tier B.</p>
+  </header>
+
+  <section class="tiles" id="kpis">
+    <div class="card tile" id="kpi-scanned"><div class="v" data-draw="k-scanned" data-source="funnel" data-field="n" data-where="step=1">—</div><div class="l">Companies with hiring signals (30 days)</div></div>
+    <div class="card tile" id="kpi-icp"><div class="v" data-draw="k-icp" data-source="funnel" data-field="n" data-where="step=2">—</div><div class="l">Fit the ICP after filtering</div></div>
+    <div class="card tile" id="kpi-worth"><div class="v" data-draw="k-worth" data-source="funnel" data-field="n" data-where="step=4">—</div><div class="l">AI-scored Tier A or B</div></div>
+    <div class="card tile" id="kpi-tiera"><div class="v" data-draw="k-tiera" data-source="funnel" data-field="n" data-where="step=5">—</div><div class="l">Tier A routed to AE/SDR + Slack</div></div>
+  </section>
+
+  <section id="funnel-section">
+    <h2>From raw hiring signals to a rep's worklist</h2>
+    <p class="note">Each bar is a stage of the engine: job-posting pull → ICP filter → HubSpot + Clay → Claude scoring → Make routing.</p>
+    <div class="chart" id="funnel-chart" data-draw="funnel" data-source="funnel" role="img" aria-label="Funnel of accounts at each stage of the GTM engine">—</div>
+  </section>
+
+  <div class="two">
+    <section id="tier-section">
+      <h2>Where the Tier A accounts sit</h2>
+      <p class="note">AI tier by company segment (headcount from Clay). Unknown = Clay found no match.</p>
+      <div class="wrap">
+        <table id="tier-table" data-source="tier_by_segment" data-row-key="segment">
+          <thead><tr><th data-field="segment">Segment</th><th class="n" data-field="tier_a">Tier A</th><th class="n" data-field="tier_b">Tier B</th><th class="n" data-field="tier_c">Tier C</th><th class="n" data-field="dq">DQ</th><th class="n" data-field="avg_fit">Avg fit</th></tr></thead>
+          <tbody data-draw="tier-rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="drivers-section">
+      <h2>What separates Tier A</h2>
+      <p class="note">Average open material-handling roles per account, by AI tier.</p>
+      <div class="chart" id="drivers-chart" data-draw="drivers" data-source="signal_drivers" role="img" aria-label="Average open material-handling roles per account by AI tier" style="min-height:180px">—</div>
+    </section>
+  </div>
+
+  <section id="rules-vs-ai-section">
+    <h2>Where the AI overruled the rules</h2>
+    <p class="note">Rules rank accounts by posting volume. Claude read the postings and firmographics and disagreed on these, mostly retail store hiring that looks like warehouse demand.</p>
+    <div class="wrap">
+      <table id="rules-table" data-source="rules_vs_ai" data-row-key="name">
+        <thead><tr><th data-field="name">Account</th><th class="n" data-field="rules_rank">Rules rank</th><th class="n" data-field="ai_score">AI fit</th><th data-field="ai_tier">AI tier</th><th data-field="disagreement">What happened</th></tr></thead>
+        <tbody data-draw="rules-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="worklist-section">
+    <h2>Tier A worklist</h2>
+    <p class="note">What reps received in Slack: owner by segment and the best contact (champion first).</p>
+    <div class="wrap">
+      <table id="worklist-table" data-source="top_accounts" data-row-key="name">
+        <thead><tr><th data-field="name">Account</th><th class="n" data-field="fit">Fit</th><th data-field="owner">Owner</th><th class="n" data-field="labor_postings">Open roles</th><th class="n" data-field="sites">Sites</th><th data-field="lead_contact">Lead contact</th></tr></thead>
+        <tbody data-draw="worklist-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="two">
+    <section id="quality-section">
+      <h2>Data quality checks</h2>
+      <p class="note">Run in SQL before anything reaches a rep.</p>
+      <div class="wrap">
+        <table id="quality-table" data-source="data_quality" data-row-key="check_name">
+          <thead><tr><th data-field="check_name">Check</th><th class="n" data-field="n">Count</th></tr></thead>
+          <tbody data-draw="quality-rows"></tbody>
+        </table>
+      </div>
+    </section>
+    <section id="ai-ops-section">
+      <h2>AI layer reliability</h2>
+      <p class="note">Every Claude call is logged. The first run's failures were responses cut off at the token limit; raising it and resuming only failed accounts fixed them without re-billing the rest.</p>
+      <div class="tiles">
+        <div class="card tile" id="ops-calls"><div class="v" data-draw="o-calls" data-source="ai_ops" data-field="calls_logged" data-row="0">—</div><div class="l">Claude calls logged</div></div>
+        <div class="card tile" id="ops-fail"><div class="v" data-draw="o-fail" data-source="ai_ops" data-field="failure_rate_pct" data-row="0">—</div><div class="l">Failed on first run (%)</div></div>
+        <div class="card tile" id="ops-lat"><div class="v" data-draw="o-lat" data-source="ai_ops" data-field="avg_latency_s" data-row="0">—</div><div class="l">Avg seconds per call</div></div>
+        <div class="card tile" id="ops-tok"><div class="v" data-draw="o-tok" data-source="ai_ops" data-field="output_tokens" data-row="0">—</div><div class="l">Output tokens</div></div>
+      </div>
+    </section>
+  </div>
+
+  <details id="notes">
+    <summary>How this was built, and its limits</summary>
+    <p>Signals: Adzuna job-postings API, US + Canada, last 30 days, searched for material handler, warehouse associate, forklift operator, order picker, and automation / robotics / controls engineer. Staffing agencies, robotics vendors, consultancies and IT "automation" roles are filtered out.</p>
+    <p>Stack: Python (signals, AI scoring, HubSpot sync), Clay (firmographics + buyer contacts), Claude API (fit score, tier, brief, first lines, reply classification), HubSpot (system of record, batch upserts on unique keys), Make (routing + reply handling with error alerts to Slack), Instantly (sequencing + reply webhook), DuckDB + SQL (these numbers).</p>
+    <p>Limits: one 30-day snapshot; posting counts may include duplicate listings; Brava is a fictional seller, so outreach went only to test inboxes the builder owns; large enterprises dominate because ranking is by posting volume.</p>
+  </details>
+</div>
+
+<script>
+const fmt = d3.format(',');
+const fmt1 = d3.format(',.1f');
+function row(id, key, val) {
+  const d = dash.data(id);
+  if (d.status !== 'ok') return null;
+  return d.data.find((r) => String(r[key]) === String(val)) || null;
+}
+function num(id, key, val, field, f) {
+  return (el) => {
+    const r = row(id, key, val);
+    el.classList.toggle('dash-skeleton', dash.data(id).status === 'loading');
+    el.textContent = r && r[field] != null ? f(+r[field]) : '—';
+  };
+}
+dash.draw('t-scanned', num('funnel', 'step', 1, 'n', fmt));
+dash.draw('t-tiera', num('funnel', 'step', 5, 'n', fmt));
+dash.draw('t-labor', num('signal_drivers', 'tier', 'A', 'avg_labor_postings', fmt1));
+dash.draw('t-sites', num('signal_drivers', 'tier', 'A', 'avg_sites_hiring', fmt1));
+dash.draw('t-laborb', num('signal_drivers', 'tier', 'B', 'avg_labor_postings', fmt1));
+dash.draw('k-scanned', num('funnel', 'step', 1, 'n', fmt));
+dash.draw('k-icp', num('funnel', 'step', 2, 'n', fmt));
+dash.draw('k-worth', num('funnel', 'step', 4, 'n', fmt));
+dash.draw('k-tiera', num('funnel', 'step', 5, 'n', fmt));
+const ops = (field, f) => (el) => {
+  const d = dash.data('ai_ops');
+  el.classList.toggle('dash-skeleton', d.status === 'loading');
+  el.textContent = d.status === 'ok' && d.data[0] ? f(+d.data[0][field]) : '—';
+};
+dash.draw('o-calls', ops('calls_logged', fmt));
+dash.draw('o-fail', ops('failure_rate_pct', fmt1));
+dash.draw('o-lat', ops('avg_latency_s', d3.format('.1f')));
+dash.draw('o-tok', ops('output_tokens', fmt));
+
+function fillTable(id, cols) {
+  return (tb) => {
+    const d = dash.data(id);
+    const rows = d.status === 'ok' ? d.data : [];
+    d3.select(tb).selectAll('tr').data(rows).join('tr').each(function (r) {
+      d3.select(this).selectAll('td').data(cols).join('td')
+        .attr('class', (c) => (c.n ? 'n' : null))
+        .text((c) => (c.f ? c.f(r[c.k], r) : r[c.k] ?? '—'));
+    });
+  };
+}
+const segName = { enterprise: 'Enterprise (10k+)', mid_market: 'Mid-Market (1k–10k)', smb: 'SMB (<1k)', unknown: 'Unknown' };
+dash.draw('tier-rows', fillTable('tier_by_segment', [
+  { k: 'segment', f: (v) => segName[v] || v }, { k: 'tier_a', n: 1 }, { k: 'tier_b', n: 1 }, { k: 'tier_c', n: 1 }, { k: 'dq', n: 1 },
+  { k: 'avg_fit', n: 1, f: (v) => fmt1(+v) }]));
+dash.draw('rules-rows', fillTable('rules_vs_ai', [
+  { k: 'name' }, { k: 'rules_rank', n: 1, f: (v) => '#' + fmt(+v) }, { k: 'ai_score', n: 1, f: (v) => fmt(+v) }, { k: 'ai_tier' }, { k: 'disagreement' }]));
+dash.draw('worklist-rows', fillTable('top_accounts', [
+  { k: 'name' }, { k: 'fit', n: 1, f: (v) => fmt(+v) }, { k: 'owner' }, { k: 'labor_postings', n: 1, f: (v) => fmt(+v) },
+  { k: 'sites', n: 1, f: (v) => fmt(+v) }, { k: 'lead_contact' }]));
+dash.draw('quality-rows', fillTable('data_quality', [{ k: 'check_name' }, { k: 'n', n: 1, f: (v) => fmt(+v) }]));
+
+function hbars(el, rows, label, value, fmtV, tipFn) {
+  el.replaceChildren();
+  const W = el.clientWidth || 600, barH = 26, gap = 10, H = rows.length * (barH + gap);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+    .attr('aria-label', el.getAttribute('aria-label'));
+  const probe = svg.append('g');
+  const lw = d3.max(rows, (r) => { const t = probe.append('text').text(label(r)); const w = t.node().getComputedTextLength(); t.remove(); return w; }) || 0;
+  const vw = d3.max(rows, (r) => { const t = probe.append('text').attr('class', 'val').text(fmtV(value(r))); const w = t.node().getComputedTextLength(); t.remove(); return w; }) || 0;
+  const narrow = W < 520;
+  const left = narrow ? 0 : Math.min(lw + 12, W * 0.45);
+  const x = d3.scaleLinear().domain([0, d3.max(rows, value) || 1]).range([0, Math.max(10, W - left - vw - 10)]);
+  const tip = d3.select(el).append('div').attr('class', 'tip').style('display', 'none');
+  const g = svg.selectAll('g.r').data(rows).join('g').attr('class', 'r')
+    .attr('transform', (r, i) => `translate(0,${i * (barH + gap)})`);
+  if (narrow) {
+    svg.attr('viewBox', `0 0 ${W} ${rows.length * (barH + gap + 16)}`);
+    g.attr('transform', (r, i) => `translate(0,${i * (barH + gap + 16)})`);
+    g.append('text').attr('y', 11).text(label);
+  } else {
+    g.append('text').attr('x', left - 12).attr('y', barH / 2 + 4).attr('text-anchor', 'end').text(label);
+  }
+  const yb = narrow ? 16 : 0;
+  g.append('rect').attr('x', left).attr('y', yb).attr('height', barH).attr('rx', 3)
+    .attr('width', (r) => Math.max(2, x(value(r)))).style('fill', dash.colors[0])
+    .on('pointermove', function (ev, r) {
+      const [mx, my] = d3.pointer(ev, el);
+      tip.style('display', null).text(tipFn(r)).style('left', Math.min(mx + 12, W - 220) + 'px').style('top', my - 30 + 'px');
+    })
+    .on('pointerleave', () => tip.style('display', 'none'));
+  g.append('text').attr('class', 'val').attr('x', (r) => left + Math.max(2, x(value(r))) + 6).attr('y', yb + barH / 2 + 4).text((r) => fmtV(value(r)));
+}
+
+dash.draw('funnel', (el) => {
+  const d = dash.data('funnel');
+  if (d.status !== 'ok') { el.textContent = d.status === 'error' ? 'Failed to load' : '—'; return; }
+  const rows = d.data.slice().sort((a, b) => a.step - b.step);
+  hbars(el, rows, (r) => r.stage, (r) => +r.n, fmt,
+    (r) => `${r.stage}: ${fmt(+r.n)}${r.pct_of_prev_stage != null ? ` (${fmt1(+r.pct_of_prev_stage)}% of previous stage)` : ''}`);
+});
+dash.draw('drivers', (el) => {
+  const d = dash.data('signal_drivers');
+  if (d.status !== 'ok') { el.textContent = d.status === 'error' ? 'Failed to load' : '—'; return; }
+  const order = { A: 1, B: 2, C: 3, DQ: 4 };
+  const rows = d.data.slice().sort((a, b) => order[a.tier] - order[b.tier]);
+  hbars(el, rows, (r) => `Tier ${r.tier} (${r.accounts})`, (r) => +r.avg_labor_postings, fmt1,
+    (r) => `Tier ${r.tier}: ${fmt1(+r.avg_labor_postings)} roles, ${fmt1(+r.avg_sites_hiring)} sites, ${fmt(+r.avg_employees)} employees on average`);
+});
+</script>

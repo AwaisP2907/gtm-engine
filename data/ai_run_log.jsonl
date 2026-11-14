@@ -1,0 +1,83 @@
+{"account": "fedex-ground", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "abercrombie-and-fitch", "attempt": 1, "latency_s": 5.98, "in_tok": 850, "out_tok": 866}
+{"account": "walmart", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "the-home-depot-canada", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "wesco", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "tsg-the-sheridan-group", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "performance-foodservice", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "duluth-trading-company", "attempt": 1, "latency_s": 4.58, "in_tok": 919, "out_tok": 843}
+{"account": "ryder-system-inc", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "ups", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "novolex", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "taylor-communications", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "staples", "attempt": 1, "latency_s": 4.8, "in_tok": 1000, "out_tok": 874}
+{"account": "reyes-holdings-llc", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "emco-corporation", "attempt": 1, "latency_s": 4.81, "in_tok": 826, "out_tok": 825}
+{"account": "williams-sonoma", "attempt": 1, "latency_s": 7.97, "in_tok": 925, "out_tok": 869}
+{"account": "gillfor-distribution", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "international-paper", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "bj-s-wholesale-club", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "j-d-irving", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "uline", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "smx-llc", "attempt": 1, "latency_s": 3.71, "in_tok": 914, "out_tok": 697}
+{"account": "kenroc-building-materials", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "lkq", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "powell-industries-inc", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "armstrong-fluid-technology", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "the-vitamin-shoppe", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "lineage-logistics", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "quincaillerie-richelieu", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "daikin", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "rexel-usa", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "e-b-horsman-son", "attempt": 3, "latency_s": 5.74, "in_tok": 857, "out_tok": 858}
+{"account": "tigercat", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "alliance-us", "attempt": 1, "latency_s": 4.41, "in_tok": 800, "out_tok": 878}
+{"account": "conagra-brands", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "drive-medical", "attempt": 2, "latency_s": 4.49, "in_tok": 880, "out_tok": 819}
+{"account": "convoy-supply", "attempt": 1, "latency_s": 4.61, "in_tok": 822, "out_tok": 845}
+{"account": "cornerstone-building-brands", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "upper-canada-forest-products", "attempt": 1, "latency_s": 4.14, "in_tok": 811, "out_tok": 795}
+{"account": "poly-america", "attempt": 1, "latency_s": 4.05, "in_tok": 797, "out_tok": 784}
+{"account": "ufp-industries", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "keurig-dr-pepper", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "the-mayfair-group", "attempt": 1, "latency_s": 4.35, "in_tok": 820, "out_tok": 748}
+{"account": "platinum-coastal-group-inc", "attempt": 1, "latency_s": 3.98, "in_tok": 804, "out_tok": 717}
+{"account": "savers-value-village", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "canadian-bank-note-company", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "equity-lifestyle-properties", "attempt": 1, "latency_s": 3.81, "in_tok": 816, "out_tok": 722}
+{"account": "mauser-packaging-solutions", "attempt": 3, "error": "'NoneType' object has no attribute 'group'"}
+{"account": "tappwfs", "attempt": 1, "latency_s": 7.14, "in_tok": 845, "out_tok": 889}
+{"account": "jenco-canada-inc", "attempt": 1, "latency_s": 4.06, "in_tok": 801, "out_tok": 734}
+{"account": "fedex-ground", "attempt": 1, "latency_s": 6.41, "in_tok": 949, "out_tok": 1258}
+{"account": "walmart", "attempt": 1, "latency_s": 5.57, "in_tok": 938, "out_tok": 997}
+{"account": "the-home-depot-canada", "attempt": 1, "latency_s": 7.79, "in_tok": 984, "out_tok": 1387}
+{"account": "wesco", "attempt": 1, "latency_s": 6.83, "in_tok": 927, "out_tok": 1331}
+{"account": "tsg-the-sheridan-group", "attempt": 1, "latency_s": 9.05, "in_tok": 916, "out_tok": 1582}
+{"account": "performance-foodservice", "attempt": 1, "latency_s": 6.15, "in_tok": 937, "out_tok": 1058}
+{"account": "ryder-system-inc", "attempt": 1, "latency_s": 7.7, "in_tok": 989, "out_tok": 1614}
+{"account": "ups", "attempt": 1, "latency_s": 6.38, "in_tok": 947, "out_tok": 1020}
+{"account": "novolex", "attempt": 1, "latency_s": 9.39, "in_tok": 968, "out_tok": 1948}
+{"account": "taylor-communications", "attempt": 1, "latency_s": 6.17, "in_tok": 955, "out_tok": 1096}
+{"account": "reyes-holdings-llc", "attempt": 1, "latency_s": 5.79, "in_tok": 930, "out_tok": 1085}
+{"account": "gillfor-distribution", "attempt": 1, "latency_s": 7.09, "in_tok": 938, "out_tok": 1546}
+{"account": "international-paper", "attempt": 1, "latency_s": 5.91, "in_tok": 954, "out_tok": 1154}
+{"account": "bj-s-wholesale-club", "attempt": 1, "latency_s": 5.31, "in_tok": 920, "out_tok": 967}
+{"account": "j-d-irving", "attempt": 1, "latency_s": 6.01, "in_tok": 898, "out_tok": 1101}
+{"account": "uline", "attempt": 2, "latency_s": 7.18, "in_tok": 948, "out_tok": 1076}
+{"account": "kenroc-building-materials", "attempt": 1, "latency_s": 8.17, "in_tok": 922, "out_tok": 1614}
+{"account": "lkq", "attempt": 1, "latency_s": 8.46, "in_tok": 925, "out_tok": 1870}
+{"account": "powell-industries-inc", "attempt": 1, "latency_s": 6.29, "in_tok": 950, "out_tok": 1186}
+{"account": "armstrong-fluid-technology", "attempt": 1, "latency_s": 4.75, "in_tok": 900, "out_tok": 900}
+{"account": "the-vitamin-shoppe", "attempt": 1, "latency_s": 5.4, "in_tok": 891, "out_tok": 960}
+{"account": "lineage-logistics", "attempt": 1, "latency_s": 7.57, "in_tok": 926, "out_tok": 1490}
+{"account": "quincaillerie-richelieu", "attempt": 1, "latency_s": 6.29, "in_tok": 918, "out_tok": 1128}
+{"account": "daikin", "attempt": 1, "latency_s": 7.05, "in_tok": 931, "out_tok": 1474}
+{"account": "rexel-usa", "attempt": 1, "latency_s": 6.14, "in_tok": 932, "out_tok": 1224}
+{"account": "tigercat", "attempt": 1, "latency_s": 5.96, "in_tok": 864, "out_tok": 1143}
+{"account": "conagra-brands", "attempt": 1, "latency_s": 8.44, "in_tok": 1021, "out_tok": 1765}
+{"account": "cornerstone-building-brands", "attempt": 1, "latency_s": 4.88, "in_tok": 965, "out_tok": 866}
+{"account": "ufp-industries", "attempt": 1, "latency_s": 6.19, "in_tok": 932, "out_tok": 1023}
+{"account": "keurig-dr-pepper", "attempt": 1, "latency_s": 5.9, "in_tok": 934, "out_tok": 1166}
+{"account": "savers-value-village", "attempt": 1, "latency_s": 7.93, "in_tok": 877, "out_tok": 1527}
+{"account": "canadian-bank-note-company", "attempt": 1, "latency_s": 6.07, "in_tok": 864, "out_tok": 1141}
+{"account": "mauser-packaging-solutions", "attempt": 1, "latency_s": 6.06, "in_tok": 960, "out_tok": 1100}

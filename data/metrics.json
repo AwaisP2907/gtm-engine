@@ -1,0 +1,291 @@
+{
+ "funnel": [
+  {
+   "step": 1,
+   "stage": "Companies with hiring signals (Adzuna, 30d)",
+   "n": 787,
+   "pct_of_prev_stage": null
+  },
+  {
+   "step": 2,
+   "stage": "ICP-filtered accounts (no staffing / vendors / IT)",
+   "n": 440,
+   "pct_of_prev_stage": 55.9
+  },
+  {
+   "step": 3,
+   "stage": "Top-ranked accounts pushed to HubSpot + enriched",
+   "n": 50,
+   "pct_of_prev_stage": 11.4
+  },
+  {
+   "step": 4,
+   "stage": "AI-scored Tier A or B (worth working)",
+   "n": 34,
+   "pct_of_prev_stage": 68.0
+  },
+  {
+   "step": 5,
+   "stage": "Tier A routed to AE/SDR with Slack alert",
+   "n": 11,
+   "pct_of_prev_stage": 32.4
+  }
+ ],
+ "tier_by_segment": [
+  {
+   "segment": "enterprise",
+   "tier_a": 10,
+   "tier_b": 13,
+   "tier_c": 3,
+   "dq": 0,
+   "total": 26,
+   "avg_fit": 64.0
+  },
+  {
+   "segment": "mid_market",
+   "tier_a": 1,
+   "tier_b": 7,
+   "tier_c": 1,
+   "dq": 1,
+   "total": 10,
+   "avg_fit": 51.6
+  },
+  {
+   "segment": "unknown",
+   "tier_a": 0,
+   "tier_b": 0,
+   "tier_c": 9,
+   "dq": 1,
+   "total": 10,
+   "avg_fit": 33.8
+  },
+  {
+   "segment": "smb",
+   "tier_a": 0,
+   "tier_b": 3,
+   "tier_c": 1,
+   "dq": 0,
+   "total": 4,
+   "avg_fit": 54.8
+  }
+ ],
+ "signal_drivers": [
+  {
+   "tier": "A",
+   "accounts": 11,
+   "avg_labor_postings": 34.9,
+   "avg_sites_hiring": 30.5,
+   "avg_automation_postings": 0.0,
+   "avg_employees": 76117.0,
+   "avg_rules_score": 54.6
+  },
+  {
+   "tier": "B",
+   "accounts": 23,
+   "avg_labor_postings": 5.6,
+   "avg_sites_hiring": 4.6,
+   "avg_automation_postings": 0.22,
+   "avg_employees": 6419.0,
+   "avg_rules_score": 36.8
+  },
+  {
+   "tier": "C",
+   "accounts": 14,
+   "avg_labor_postings": 19.5,
+   "avg_sites_hiring": 16.1,
+   "avg_automation_postings": 0.07,
+   "avg_employees": 36701.0,
+   "avg_rules_score": 35.5
+  },
+  {
+   "tier": "DQ",
+   "accounts": 2,
+   "avg_labor_postings": 4.0,
+   "avg_sites_hiring": 3.5,
+   "avg_automation_postings": 0.0,
+   "avg_employees": 1973.0,
+   "avg_rules_score": 32.1
+  }
+ ],
+ "rules_vs_ai": [
+  {
+   "name": "Abercrombie and Fitch",
+   "rules_rank": 2.0,
+   "ai_score": 35.0,
+   "ai_tier": "C",
+   "disagreement": "AI demoted a top rules pick"
+  },
+  {
+   "name": "The Home Depot Canada",
+   "rules_rank": 4.0,
+   "ai_score": 30.0,
+   "ai_tier": "C",
+   "disagreement": "AI demoted a top rules pick"
+  },
+  {
+   "name": "EMCO Corporation",
+   "rules_rank": 15.0,
+   "ai_score": 35.0,
+   "ai_tier": "C",
+   "disagreement": "AI demoted a top rules pick"
+  },
+  {
+   "name": "Conagra Brands",
+   "rules_rank": 35.0,
+   "ai_score": 72.0,
+   "ai_tier": "A",
+   "disagreement": "AI promoted a low rules pick"
+  }
+ ],
+ "ai_ops": [
+  {
+   "calls_logged": 83,
+   "failed_calls": 33,
+   "failure_rate_pct": 39.8,
+   "succeeded_after_retry": 3,
+   "avg_latency_s": 6.06,
+   "input_tokens": 45297,
+   "output_tokens": 55560
+  }
+ ],
+ "data_quality": [
+  {
+   "check_name": "Accounts missing firmographics",
+   "n": 10
+  },
+  {
+   "check_name": "Accounts with no buyer contact",
+   "n": 16
+  },
+  {
+   "check_name": "Duplicate account keys",
+   "n": 0
+  },
+  {
+   "check_name": "Duplicate contacts (same name + account)",
+   "n": 0
+  },
+  {
+   "check_name": "Contacts missing AI first line",
+   "n": 3
+  },
+  {
+   "check_name": "Likely wrong-entity matches (AI DQ)",
+   "n": 2
+  },
+  {
+   "check_name": "Contacts by persona: economic buyer",
+   "n": 35
+  },
+  {
+   "check_name": "Contacts by persona: champion",
+   "n": 11
+  },
+  {
+   "check_name": "Contacts by persona: operator",
+   "n": 12
+  }
+ ],
+ "top_accounts": [
+  {
+   "name": "FedEx Ground",
+   "segment": "enterprise",
+   "fit": 80.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 216.0,
+   "sites": 198.0,
+   "lead_contact": "Contact 001 \u2014 Regional Vice President Of Operations"
+  },
+  {
+   "name": "Walmart",
+   "segment": "enterprise",
+   "fit": 78.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 39.0,
+   "sites": 39.0,
+   "lead_contact": "Contact 002 \u2014 Divisional Vice President, Supply Chain"
+  },
+  {
+   "name": "Performance Foodservice",
+   "segment": "enterprise",
+   "fit": 78.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 17.0,
+   "sites": 14.0,
+   "lead_contact": "Contact 011 \u2014 Director Of Warehouse Operations"
+  },
+  {
+   "name": "UPS",
+   "segment": "enterprise",
+   "fit": 76.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 17.0,
+   "sites": 9.0,
+   "lead_contact": "Contact 015 \u2014 Vice President of Operations"
+  },
+  {
+   "name": "TSG - The Sheridan Group",
+   "segment": "mid_market",
+   "fit": 72.0,
+   "owner": "SDR - Mid-Market",
+   "labor_postings": 19.0,
+   "sites": 19.0,
+   "lead_contact": "Contact 008 \u2014 Vice President of Operations"
+  },
+  {
+   "name": "Ryder System, Inc.",
+   "segment": "enterprise",
+   "fit": 72.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 19.0,
+   "sites": 9.0,
+   "lead_contact": "Contact 013 \u2014 Director of Continuous Improvement"
+  },
+  {
+   "name": "Taylor Communications",
+   "segment": "enterprise",
+   "fit": 72.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 13.0,
+   "sites": 10.0,
+   "lead_contact": "Contact 019 \u2014 Vice President of Operations, Manufacturing and Distribution"
+  },
+  {
+   "name": "International Paper",
+   "segment": "enterprise",
+   "fit": 72.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 7.0,
+   "sites": 5.0,
+   "lead_contact": "Contact 028 \u2014 Vice President, Supply Chain Containerboard / Recycling"
+  },
+  {
+   "name": "Conagra Brands",
+   "segment": "enterprise",
+   "fit": 72.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 4.0,
+   "sites": 2.0,
+   "lead_contact": "Contact 047 \u2014 Vice President, Supply Chain Strategy \u2013 Network and Productivity Programs"
+  },
+  {
+   "name": "WESCO",
+   "segment": "enterprise",
+   "fit": 70.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 20.0,
+   "sites": 19.0,
+   "lead_contact": "Contact 007 \u2014 Director of Automation and Controls - BC"
+  },
+  {
+   "name": "Novolex",
+   "segment": "enterprise",
+   "fit": 70.0,
+   "owner": "AE - Enterprise",
+   "labor_postings": 13.0,
+   "sites": 11.0,
+   "lead_contact": "Contact 017 \u2014 Vice President of Operations Food Grocery & Retail"
+  }
+ ],
+ "_exported_at": "2026-11-14T22:48:09.707Z"
+}

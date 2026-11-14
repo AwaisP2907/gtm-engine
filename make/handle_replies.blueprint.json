@@ -1,0 +1,406 @@
+{
+  "name": "GTM Engine - Handle replies",
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "mapper": {},
+      "parameters": {
+        "hook": "<your webhook id>",
+        "maxResults": 1
+      },
+      "metadata": {
+        "designer": {
+          "name": "Instantly: reply_received"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "module": "json:TransformToJSON",
+      "version": 1,
+      "mapper": {
+        "object": "You classify replies to a B2B cold email from Brava Robotics (humanoid robots for warehouse tote handling). Return ONLY a JSON object, no code fences:\n{\"class\": \"interested\" | \"objection\" | \"not_now\" | \"wrong_person\" | \"unsubscribe\" | \"out_of_office\", \"summary\": \"<one sentence, max 25 words>\", \"next_step\": \"<one concrete action for the rep, max 20 words>\"}\n\nProspect: {{ifempty(1.firstName; 1.first_name)}} at {{ifempty(1.companyName; ifempty(1.company_name; 1.lead_company))}}\nReply:\n{{ifempty(1.reply_text; ifempty(1.reply_text_snippet; 1.text))}}"
+      },
+      "parameters": {
+        "space": ""
+      },
+      "metadata": {
+        "designer": {
+          "name": "Build classifier prompt (JSON-safe)"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "mapper": {
+        "url": "https://api.anthropic.com/v1/messages",
+        "data": "{\"model\":\"claude-haiku-5-5\",\"max_tokens\":1500,\"messages\":[{\"role\":\"user\",\"content\":{{2.json}}}]}",
+        "method": "post",
+        "headers": [
+          {
+            "name": "x-api-key",
+            "value": "{{ANTHROPIC_API_KEY}}"
+          },
+          {
+            "name": "anthropic-version",
+            "value": "2023-06-01"
+          }
+        ],
+        "bodyType": "raw",
+        "contentType": "application/json",
+        "parseResponse": true
+      },
+      "parameters": {
+        "handleErrors": true
+      },
+      "metadata": {
+        "designer": {
+          "name": "Claude: classify reply"
+        }
+      },
+      "onerror": [
+        {
+          "id": 160,
+          "module": "http:ActionSendData",
+          "version": 3,
+          "mapper": {
+            "url": "{{SLACK_WEBHOOK_URL}}",
+            "method": "post",
+            "headers": [],
+            "bodyType": "raw",
+            "contentType": "application/json",
+            "data": "{\"text\": \":rotating_light: *GTM Engine reply-handler error* at _Claude classify_ for {{1.lead_email}}. Error: {{error.message}}\"}"
+          },
+          "parameters": {
+            "handleErrors": true
+          },
+          "metadata": {
+            "designer": {
+              "name": "Error -> #gtm-engine-alerts"
+            }
+          }
+        },
+        {
+          "id": 161,
+          "module": "builtin:Ignore",
+          "version": 1,
+          "mapper": null,
+          "parameters": {}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "module": "json:ParseJSON",
+      "version": 1,
+      "mapper": {
+        "json": "{{first(map(3.data.content; \"text\"; \"type\"; \"text\"))}}"
+      },
+      "parameters": {
+        "type": ""
+      },
+      "metadata": {
+        "designer": {
+          "name": "Parse AI verdict"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "mapper": {
+        "url": "https://api.hubapi.com/crm/v3/objects/contacts/{{ifempty(1.lead_email; 1.email)}}?idProperty=email",
+        "data": "{\"properties\":{\"gtm_reply_class\":\"{{4.class}}\"}}",
+        "method": "patch",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer {{HUBSPOT_TOKEN}}"
+          }
+        ],
+        "bodyType": "raw",
+        "contentType": "application/json",
+        "parseResponse": true
+      },
+      "parameters": {
+        "handleErrors": true
+      },
+      "metadata": {
+        "designer": {
+          "name": "HubSpot: tag contact reply class"
+        }
+      },
+      "onerror": [
+        {
+          "id": 170,
+          "module": "http:ActionSendData",
+          "version": 3,
+          "mapper": {
+            "url": "{{SLACK_WEBHOOK_URL}}",
+            "method": "post",
+            "headers": [],
+            "bodyType": "raw",
+            "contentType": "application/json",
+            "data": "{\"text\": \":rotating_light: *GTM Engine reply-handler error* at _HubSpot contact update_ for {{1.lead_email}}. Error: {{error.message}}\"}"
+          },
+          "parameters": {
+            "handleErrors": true
+          },
+          "metadata": {
+            "designer": {
+              "name": "Error -> #gtm-engine-alerts"
+            }
+          }
+        },
+        {
+          "id": 171,
+          "module": "builtin:Ignore",
+          "version": 1,
+          "mapper": null,
+          "parameters": {}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "module": "builtin:BasicRouter",
+      "version": 1,
+      "mapper": null,
+      "routes": [
+        {
+          "flow": [
+            {
+              "id": 10,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/deals",
+                "data": "{\"properties\":{\"dealname\":\"{{ifempty(1.companyName; ifempty(1.company_name; 1.lead_company))}} - Brava pilot (inbound reply)\",\"pipeline\":\"default\",\"dealstage\":\"qualifiedtobuy\",\"amount\":\"60000\"},\"associations\":[{\"to\":{\"id\":\"{{1.hubspot_company_id}}\"},\"types\":[{\"associationCategory\":\"HUBSPOT_DEFINED\",\"associationTypeId\":5}]}]}",
+                "method": "post",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: create deal (Qualified to Buy)"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 180,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine reply-handler error* at _HubSpot deal create_ for {{1.lead_email}}. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 181,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ],
+              "filter": {
+                "name": "Interested",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{4.class}}",
+                      "b": "interested",
+                      "o": "text:equal"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "id": 11,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "https://api.hubapi.com/crm/v3/objects/companies/{{1.hubspot_company_id}}",
+                "data": "{\"properties\":{\"gtm_engine_status\":\"replied\"}}",
+                "method": "patch",
+                "headers": [
+                  {
+                    "name": "Authorization",
+                    "value": "Bearer {{HUBSPOT_TOKEN}}"
+                  }
+                ],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "HubSpot: company -> replied"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 190,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine reply-handler error* at _HubSpot company update_ for {{1.lead_email}}. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 191,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flow": [
+            {
+              "id": 20,
+              "module": "json:TransformToJSON",
+              "version": 1,
+              "mapper": {
+                "object": "{{if(4.class = \"interested\"; \":fire: *Positive reply -> deal created*\"; \":speech_balloon: *Reply received*\")}} | *{{ifempty(1.companyName; ifempty(1.company_name; 1.lead_company))}}* ({{ifempty(1.firstName; 1.first_name)}})\n*AI class:* `{{4.class}}`\n*Summary:* {{4.summary}}\n*Next step:* {{4.next_step}}\n<https://app.hubspot.com/contacts/<portal-id>/record/0-2/{{1.hubspot_company_id}}|Open company in HubSpot>"
+              },
+              "parameters": {
+                "space": ""
+              },
+              "metadata": {
+                "designer": {
+                  "name": "Build Slack message (JSON-safe)"
+                }
+              },
+              "filter": {
+                "name": "Always",
+                "conditions": [
+                  [
+                    {
+                      "a": "{{4.class}}",
+                      "o": "exist"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "id": 21,
+              "module": "http:ActionSendData",
+              "version": 3,
+              "mapper": {
+                "url": "{{SLACK_WEBHOOK_URL}}",
+                "data": "{\"text\":{{20.json}}}",
+                "method": "post",
+                "headers": [],
+                "bodyType": "raw",
+                "contentType": "application/json",
+                "parseResponse": true
+              },
+              "parameters": {
+                "handleErrors": true
+              },
+              "metadata": {
+                "designer": {
+                  "name": "Slack: reply ping"
+                }
+              },
+              "onerror": [
+                {
+                  "id": 200,
+                  "module": "http:ActionSendData",
+                  "version": 3,
+                  "mapper": {
+                    "url": "{{SLACK_WEBHOOK_URL}}",
+                    "method": "post",
+                    "headers": [],
+                    "bodyType": "raw",
+                    "contentType": "application/json",
+                    "data": "{\"text\": \":rotating_light: *GTM Engine reply-handler error* at _Slack ping_ for {{1.lead_email}}. Error: {{error.message}}\"}"
+                  },
+                  "parameters": {
+                    "handleErrors": true
+                  },
+                  "metadata": {
+                    "designer": {
+                      "name": "Error -> #gtm-engine-alerts"
+                    }
+                  }
+                },
+                {
+                  "id": 201,
+                  "module": "builtin:Ignore",
+                  "version": 1,
+                  "mapper": null,
+                  "parameters": {}
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "instant": true,
+    "version": 1,
+    "scenario": {
+      "roundtrips": 1,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "autoCommitTriggerLast": true,
+      "sequential": false,
+      "confidential": false,
+      "dataloss": false,
+      "dlq": false,
+      "freshVariables": false
+    }
+  }
+}

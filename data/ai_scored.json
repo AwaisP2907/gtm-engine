@@ -1,0 +1,552 @@
+{
+ "fedex-ground": {
+  "company": "FedEx Ground",
+  "fit_score": 80,
+  "tier": "A",
+  "reasoning": "Scale, labor pain, and hiring signal are all strong: 216 material-handling postings across 198 sites, many part-time and marked 'Hiring Immediately,' fit Brava's tote and case-handling use case. The gap is automation readiness (zero industrial automation or controls postings), and much of FedEx Ground's network runs through independent service providers, so the pilot decision may sit partly outside [contact]'s direct control.",
+  "brief": [
+   "Large US ground-package network with material handlers, part-time warehouse associates, and seasonal hiring spread across ~198 sites, indicating recurring tote and package handling labor pressure.",
+   "The 30-day posting surge (216 roles, several flagged 'Hiring Immediately') is the strongest signal of ongoing labor strain, and it is distributed across many sites rather than concentrated in one building.",
+   "Start with a 2-3 robot tote-transfer or line-side replenishment pilot at one high-volume NYC-metro hub, measure throughput and turnover against hiring costs, then expand to a regional cluster. Confirm early whether the target sites are company-operated or ISP-operated."
+  ]
+ },
+ "abercrombie-and-fitch": {
+  "company": "Abercrombie and Fitch",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "The 133 material-handling postings spread across 133 sites look more like store-level or store-support roles than a concentrated DC operation, and retail store-floor roles are out of ICP. There are no automation or controls postings, and no buyer contacts were found, so this stays C until we confirm whether the postings sit in distribution centers.",
+  "brief": [
+   "Retailer (apparel) with a 30K-employee base; any warehouse labor pain is most likely in its distribution network, which isn't visible in the current data.",
+   "Signal: 133 'Warehouse Material Handler' postings across 133 sites in 30 days, with zero automation/controls roles. The spread across sites suggests store-level hiring, which weakens the fit, but the title also appears in DC contexts.",
+   "Pilot angle only if verified: a 2-robot tote-transfer pilot at one DC where material handler hiring is concentrated. Before outreach, check whether the postings map to DC addresses and find an operations or supply chain leader."
+  ]
+ },
+ "walmart": {
+  "company": "Walmart",
+  "fit_score": 78,
+  "tier": "A",
+  "reasoning": "Walmart matches the ICP on scale and labor pattern: 39 material-handling postings (Order Picker, Loader/Unloader) across 39 sites in 30 days points to persistent hourly tote and case handling across the network. It falls short on automation readiness, with zero industrial automation or controls postings, so the score stops short of 90 and the pitch needs to fit a sophisticated, already-automated operation.",
+  "brief": [
+   "Runs a large distribution and supply chain network where order picking and loading/unloading are staffed by hourly associates across many sites. The labor pain is repetitive tote and case movement that is hard to staff consistently at each site.",
+   "The posting spike is 39 material-handling requisitions across 39 sites in the last 30 days, showing the hiring need is network-wide rather than isolated to one building. The absence of automation or controls hiring suggests current automation is largely vendor-run, so Brava would enter as a complement rather than a replacement.",
+   "Propose a 2-5 robot pilot at one high-volume DC, focused on a bounded task such as tote transfer between conveyors or line-side replenishment during peak. Measure throughput and labor hours per shift, then use the results to expand to a multi-site rollout across the region."
+  ]
+ },
+ "the-home-depot-canada": {
+  "company": "The Home Depot Canada",
+  "fit_score": 30,
+  "tier": "C",
+  "reasoning": "The 94 order-picker postings across 57 sites show real volume, but the sample titles and Canadian city locations (Saanich, Marlborough, Richmond, Moncton) read like store-level online-order fulfillment, which the ICP excludes as retail store-floor work. There are zero automation or controls postings, and nothing confirms a distribution-center tote flow.",
+  "brief": [
+   "Home Depot Canada runs big-box stores plus some distribution infrastructure. The enrichment describes the parent company, and the postings don't show whether the order-picker roles sit in DCs or in stores.",
+   "94 material-handling postings across 57 sites in the last 30 days is a strong hiring-pressure signal, but with no automation hires the company shows no visible automation build-out yet.",
+   "Only pursue if DC-level roles are confirmed. Then pitch a 2-3 robot pilot for tote transfer and line-side replenishment at one Canadian DC. Otherwise, nurture and re-score when the postings or site mix change."
+  ]
+ },
+ "wesco": {
+  "company": "WESCO",
+  "fit_score": 70,
+  "tier": "A",
+  "reasoning": "WESCO is a large North American wholesale distributor (11,882 employees, $10-100B revenue) with multi-site distribution operations that fit the tote and case handling ICP, and it has 20 open material-handling roles across 19 sites in the last 30 days, which points to persistent hourly labor pressure. The score is held below 80 because there are zero industrial automation or controls postings, and the automation-titled contact is based in Burnaby, BC, so the automation-ready signal is weaker than the labor signal.",
+  "brief": [
+   "Large distribution network with DCs across 19 sites where tote and case movement is likely done manually by warehouse associates; the exact site-level workflows need confirmation.",
+   "Signal: 20 material-handling postings across 19 sites in 30 days, with sampled titles including Warehouse Associate. This suggests repeated, network-wide hiring rather than a single site backfill, which makes the case for a standardized pilot now.",
+   "Suggested pilot angle: 2-3 Brava robots on one high-volume DC's tote transfer or line-side replenishment lane, with a clear throughput and hiring-offset metric, then expand to other sites with open material-handling roles."
+  ]
+ },
+ "tsg-the-sheridan-group": {
+  "company": "TSG - The Sheridan Group",
+  "fit_score": 72,
+  "tier": "A",
+  "reasoning": "Nineteen simultaneous material-handler postings across 19 sites show persistent, multi-site hourly labor pain in repetitive tote and material movement, which matches Brava's core use case and makes a multi-site expansion path plausible. The score is held below the top band because the business is book and commercial printing rather than a warehouse or DC, and there are no automation or controls postings, so automation readiness is unproven.",
+  "brief": [
+   "Printing and binding plants that move paper stock, totes, and finished product between presses, finishing, and shipping; material handling is the likely labor pain. Verify the entity: Clay lists HQ in Brainerd, MN, while the contacts are in Stevens Point, WI and Kent, OH, so confirm the domain and corporate records before outreach.",
+   "19 material-handler postings across 19 sites in the last 30 days indicates chronic hourly staffing strain spread across the network, not a single-site backfill. Zero automation or controls postings means no visible in-house automation build-out yet, so the entry point is operations rather than engineering.",
+   "Propose a 2-robot pilot at one high-volume plant on a single repetitive tote-transfer or line-side replenishment task, with success measured in hours covered per shift and open-req reduction, then expand to other sites if the pilot performs."
+  ]
+ },
+ "performance-foodservice": {
+  "company": "Performance Foodservice",
+  "fit_score": 78,
+  "tier": "A",
+  "reasoning": "Performance Foodservice is a 10,001+ employee, $10-100B distributor with 17 open material-handling roles (order pickers, forklift drivers, night and third-shift coverage) spread across 14 sites, which matches Brava's multi-site tote and case handling pitch. The main gap is that there are zero industrial automation or controls postings, so automation readiness is unproven.",
+  "brief": [
+   "Multi-site food distribution network where order picking and forklift moves are done by hourly staff. Repeated postings for order pickers and forklift drivers on 3rd and night shifts point to persistent labor strain on the picking floor.",
+   "Job postings show 17 material-handling openings across 14 sites in the last 30 days, a network-wide hiring pattern rather than a single backfill. Night and third-shift coverage needs are hard to staff and make a robot pilot easier to justify now.",
+   "Start with a 2-5 robot pilot at one high-volume DC on the night shift, focused on tote transfer and order-picking support. Use measured picks per hour, shift coverage, and open-req reduction as success metrics, then expand across the 14 sites."
+  ]
+ },
+ "duluth-trading-company": {
+  "company": "Duluth Trading Company",
+  "fit_score": 55,
+  "tier": "B",
+  "reasoning": "Duluth is a retail apparel brand, which is outside the core ICP, but it runs distribution operations and shows persistent material-handling hiring (14 postings across 14 sites, including a forklift driver role in Belleville, WI). The score is held back by zero automation or controls postings and by uncertainty over whether the 14 sites are DCs or retail stores, which the ICP disqualifies.",
+  "brief": [
+   "Runs a DC in Belleville, WI and a corporate HQ in Mt Horeb, WI; the labor pain is in tote/case handling and forklift work on third shift, where hourly roles are hard to fill.",
+   "Job postings API shows 14 material-handling roles across 14 sites in the last 30 days, with a $20.50/hr holiday forklift driver posting in Belleville. Why now: peak season is hiring pressure on the same roles. Verify that all 14 sites are DCs or plants, not stores.",
+   "Pilot 2-3 Brava robots on tote transfer or conveyor-to-pallet work at the Belleville DC during peak, scoped to third-shift coverage gaps, with a clear throughput and labor-hours baseline."
+  ]
+ },
+ "ryder-system-inc": {
+  "company": "Ryder System, Inc.",
+  "fit_score": 72,
+  "tier": "A",
+  "reasoning": "Ryder runs contract logistics and warehousing, and 19 material-handler postings across 9 sites in 30 days points to the persistent, multi-site tote and case labor pain Brava targets, which supports a pilot. The score is held below the top band because there are zero industrial automation or controls postings and no visible AMR or conveyor automation signal, so automation readiness is unproven.",
+  "brief": [
+   "Ryder operates fleet, dedicated contract logistics and warehousing, so repetitive material handling across customer DCs is a core labor cost. Its 3PL model means the labor pain sits across many sites rather than one building.",
+   "Nine sites hiring material handlers at once, across multiple shifts including weekend coverage, signals chronic turnover or staffing gaps. Hiring is active now, which makes a labor-substitution pitch timely.",
+   "Suggested pilot: 2-3 Brava robots on tote transfer and line-side replenishment at one high-volume contract site with the most open material handler reqs, measured on shift coverage and throughput. Confirm which site is Ryder-operated versus customer-operated before proposing."
+  ]
+ },
+ "ups": {
+  "company": "UPS",
+  "fit_score": 76,
+  "tier": "A",
+  "reasoning": "UPS matches the ICP on scale and labor pattern: 17 material-handling postings across 9 sites in 30 days signal persistent hourly tote and case handling pain. The score is held back from higher by the absence of any industrial automation or controls hiring, which weakens the automation-readiness signal.",
+  "brief": [
+   "Runs large-scale parcel distribution and sortation operations; repetitive tote and case movement is staffed by warehouse associates across multiple sites, including night and AM shifts.",
+   "Hiring 17 warehouse associate roles across 9 sites in the last 30 days points to recurring hourly labor churn in the same task profile Brava automates, making the pain multi-site rather than isolated.",
+   "Pilot 2-3 robots on a single high-volume tote-transfer or line-side replenishment flow at one DC (e.g., West Point, KY), with a clear labor-hours-per-shift baseline to expand site by site."
+  ]
+ },
+ "novolex": {
+  "company": "Novolex",
+  "fit_score": 70,
+  "tier": "A",
+  "reasoning": "Novolex is a 4,105-employee packaging manufacturer in the revenue band we target, and its 13 material-handling postings across 11 sites in 30 days show persistent, multi-site hourly labor pressure in plant operations. The score is held back because the roles are mostly forklift driver positions rather than explicit tote or case handling, and there are no automation or controls hiring signals.",
+  "brief": [
+   "Packaging and containers manufacturer with multiple plants. Material movement is done by forklift drivers, loader checkers and material handlers, so the labor pain sits in plant-side material flow. Note: Contact 017's title references Food, Grocery & Retail, which may map to a business unit rather than the packaging operation, so verify he owns the relevant sites.",
+   "13 material-handling postings across 11 sites in the last 30 days, with 0 automation or controls roles. That pattern suggests recurring replacement hiring across the network rather than a single site ramp, which makes it a good time to test a site-level alternative.",
+   "Start with a 2-5 robot pilot at one high-turnover plant, focused on repetitive tote transfers and line-side replenishment that currently consume forklift and material-handler hours. Use the pilot data to build a case for network expansion across the 11 sites."
+  ]
+ },
+ "taylor-communications": {
+  "company": "Taylor Communications",
+  "fit_score": 72,
+  "tier": "A",
+  "reasoning": "Taylor is a 7,000+ employee printing and fulfillment operator with 13 order-picker and material-handling postings across 10 sites in the last 30 days, which fits the persistent multi-site hourly picking pain Brava targets. It loses some points because there are zero industrial automation or controls postings, so automation readiness is unproven.",
+  "brief": [
+   "Runs printing and fulfillment operations across multiple US sites, with order picking and material handling done manually at volume (1st-shift order picker roles, including temporary staffing).",
+   "13 material-handling postings across 10 sites in 30 days signals recurring picker turnover and staffing strain that is hard to fill, and the rules engine ranks this account top-12 of 440 on hiring signal.",
+   "Pilot 2-3 humanoid robots on tote/case picking and tote transfer at one high-volume DC (Lewisville, TX is the natural candidate) for 1st shift, then expand to other sites where the same picker postings recur."
+  ]
+ },
+ "staples": {
+  "company": "Staples",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "Staples runs large distribution operations, and 12 warehouse order-picker postings across 7 sites in 30 days point to persistent, repetitive tote-picking labor, which fits Brava's use case. The score stays at B rather than A because there are zero industrial automation or controls postings, and the firmographic industry tag (Retail Office Equipment) suggests the buyers may be less automation-ready than an operator-first DC business.",
+  "brief": [
+   "Staples operates retail and e-commerce fulfillment with distribution centers; order-picking is the primary labor pool at its warehouse sites, with some roles on 1st and 2nd shifts and both full-time and part-time.",
+   "Job postings show order-picker hiring across 7 sites in the last 30 days, indicating recurring turnover and capacity strain in tote-level picking; no automation or controls hiring suggests this is an opportunity to introduce automation rather than a team already building it.",
+   "Propose a 2-3 robot pilot at one high-volume DC on the second shift, focused on tote transfer and replenishment between picking zones and conveyors, with clear labor-hours and throughput KPIs to justify expansion across the 7 sites."
+  ]
+ },
+ "reyes-holdings-llc": {
+  "company": "Reyes Holdings LLC",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "Reyes runs a large distribution network (8,403 employees, 10,001+ band, $1-10B revenue) with material-handling hiring at 9 sites in the last 30 days, which matches the high-volume, repetitive case and tote handling Brava targets. It scores below A because there are zero industrial automation or controls postings and no signal of existing AMR or automation programs, so the automation-readiness bonus is absent.",
+  "brief": [
+   "Multi-site beverage and food distribution operation (HQ Rosemont, IL) where forklift drivers and order pickers are the recurring labor pain, as shown by the Forklift Driver and Warehouse Order Picker postings.",
+   "Nine concurrent material-handling postings across nine sites in 30 days points to a network-wide throughput or turnover problem, not a single-site vacancy, which makes a multi-site RaaS expansion path credible now.",
+   "Suggested pilot: 2-3 humanoids on high-volume case or tote transfer at one high-hiring DC (dock-to-conveyor or order-picking replenishment), with a per-site expansion plan tied to the posting footprint."
+  ]
+ },
+ "emco-corporation": {
+  "company": "EMCO Corporation",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "Ten material-handling postings across seven sites show recurring hourly labor demand, but there are no automation or controls postings, and the 'Counter Sales' and 'Inside Sales' hybrid titles suggest a branch or retail-facing operation rather than a high-volume tote and case warehouse. Firmographics and buyer contacts are missing, so the wrong-entity and operating-model risk is unresolved.",
+  "brief": [
+   "Unverified profile: Clay returned no firmographics, and the hybrid material handler/counter sales roles suggest branch or counter-based distribution rather than a pure DC or plant. Confirm what EMCO operates and whether the material handling is high-volume tote or case work.",
+   "Signal: 10 material-handling postings across 7 sites in the last 30 days (rules score 47.5, rank 15 of 440) indicate persistent hourly handler hiring across a multi-site footprint. There are no industrial automation or controls postings, so there is no automation-readiness signal yet.",
+   "Suggested pilot angle, only if verification confirms a warehouse or DC operation: a 2-robot tote-transfer pilot at the site with the highest handler-posting concentration. Do not pursue until the operating model is confirmed and a buyer is identified."
+  ]
+ },
+ "williams-sonoma": {
+  "company": "Williams-Sonoma",
+  "fit_score": 58,
+  "tier": "B",
+  "reasoning": "Williams-Sonoma is a retailer, but it runs a multi-site distribution and e-commerce fulfillment network, so it is not a store-floor-only DQ. Seven material-handling postings across six sites show recurring forklift labor demand, but with zero automation or controls postings and no AMR or conveyor signal, this is a nurture account rather than a pursue-now one.",
+  "brief": [
+   "Likely runs regional distribution centers and e-commerce fulfillment for its brands (verify DC footprint and volumes in enrichment). Labor pain is in tote and case movement, plus forklift staffing across sites.",
+   "Signal: 7 material-handling postings (e.g., Forklift Driver, 1st Shift) across 6 sites in the last 30 days, with no automation postings. This suggests recurring, distributed hiring pressure, not a single site ramp.",
+   "Pilot angle: 2-3 robots on one high-volume DC's tote transfer or line-side replenishment flow, framed as a way to reduce forklift-dependent moves during peak. Expand across the network if the pilot holds."
+  ]
+ },
+ "gillfor-distribution": {
+  "company": "Gillfor Distribution",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "Strong operational fit: a 142-person building-materials distributor hiring 8 material-handling roles across 5 sites points to persistent manual tote and material movement, but zero automation or controls postings and a yard-heavy forklift mix keep it below Tier A. Verify the entity before outreach: the '(CA)' tag suggests California while HQ is Bolton, Ontario and the contact is in Sudbury, so confirm this is the Ontario operation.",
+  "brief": [
+   "Wholesale building materials distributor (~142 staff, $75-200M revenue) with multi-site warehouse operations; the labor pain is repetitive tote and case moves plus forklift work done manually.",
+   "8 material-handling postings across 5 sites in the last 30 days (forklift operator, warehouse worker, material handler) signal recurring hiring churn now; no automation or controls hires yet, so they are not yet automation-ready.",
+   "Pilot 2-3 Brava robots on one high-volume DC's tote transfer or replenishment lane, framed as relief for recurring hiring at the busiest site; verify entity and site first."
+  ]
+ },
+ "international-paper": {
+  "company": "International Paper",
+  "fit_score": 72,
+  "tier": "A",
+  "reasoning": "International Paper is a large (10,001+ employees, $10-100B revenue) paper and packaging manufacturer with recurring hourly material-handling hiring across five sites, which matches Brava's core use case. The score is held below the ceiling because the 7 postings are all forklift-driver roles with zero automation or controls postings, so the automation-readiness signal is weak.",
+  "brief": [
+   "Large paper and containerboard manufacturer with multi-site plants and distribution operations, where repetitive tote, case and material movement relies on hourly forklift and material-handling labor.",
+   "7 material-handling postings across 5 sites in the last 30 days (including Fox Valley and a Team Lead Forklift Driver role) signal persistent hourly labor churn now, though no automation or controls roles are open yet.",
+   "Pilot 2-3 humanoids on tote/case transfer between conveyors and line-side replenishment at one site with the heaviest forklift-driver demand, then expand network-wide if throughput and labor-hours targets are met."
+  ]
+ },
+ "bj-s-wholesale-club": {
+  "company": "BJ's Wholesale Club",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "BJ's runs a multi-site distribution network with 16,855 employees, and 6 open material-handling postings across 6 sites (all forklift driver roles) point to persistent hourly labor pressure in the DCs. The fit is held back because the roles are forklift and pallet work rather than the tote and case movement Brava targets, and there are no automation or controls postings, so this is a nurture account rather than an immediate pursuit.",
+  "brief": [
+   "Runs a large membership-warehouse DC network (retail classification, but the hiring is DC-based). The labor pain is in material handling: forklift drivers across full-time, part-time and overnight shifts.",
+   "Signal: 6 forklift and inventory-control driver postings across 6 sites in the last 30 days, with no automation or controls hiring. This suggests recurring labor churn across the network, but no sign yet of an automation program.",
+   "Pilot angle: a 2-3 robot tote-transfer or line-side replenishment pilot at one perishables DC, framed as relief for overnight tote handling. Confirm the cold-environment requirements first, and check whether the forklift work is in scope before proposing."
+  ]
+ },
+ "j-d-irving": {
+  "company": "J.D. Irving",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "J.D. Irving is a large (10,001+ employee) North American operator with material-handling roles across multiple sites, which fits Brava's ICP. The hiring signal is modest (6 material-handling postings across 5 sites in 30 days, one of them a courier/driver hybrid that is off-profile) and there are no automation or controls hires, so this is a nurture account rather than an immediate A.",
+  "brief": [
+   "Diversified forest products, paper and related operations at enterprise scale (firmographics: 2,919 employees, $10B-$100B revenue, Saint John, NB HQ); labor-intensive material handling and order picking are the likely pain points, but site-level workflows are unverified.",
+   "Six material-handler and order-picker postings across five sites in the last 30 days suggest recurring hourly hiring for tote/case movement, but volume is moderate and there are no automation or controls postings, so urgency is low. Re-score if postings grow or automation roles appear.",
+   "Pilot angle: a 2-robot line-side or tote-transfer pilot at one distribution or order-picking site where material-handler hiring is concentrated, with a clear throughput and hiring-avoidance baseline before expanding network-wide."
+  ]
+ },
+ "uline": {
+  "company": "Uline",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "Uline is a large North American wholesale distributor with multi-site, high-volume order-picking and material-handling operations, which matches the ICP's core use case. The 7 material-handling postings across 4 sites in 30 days, including night shifts, show persistent hourly hiring, but there are no automation or controls postings, so the account is not yet automation-ready.",
+  "brief": [
+   "Runs multiple distribution centers handling high-volume picking and tote/case movement, with the hourly labor load concentrated in warehouse associate and order picker roles, including overnight shifts.",
+   "Seven material-handling reqs across four sites in the last 30 days, with night-shift postings, suggest recurring labor gaps across the network. Why now: the repeat hiring is a cost and retention problem that a 2-5 robot pilot could address at one site before expanding.",
+   "Pilot at the highest-volume or night-shift DC, targeting tote transfer and order-picking support on the night shift to reduce overnight hiring dependence, with clear pick-rate and labor-hours KPIs for a 90-day readout."
+  ]
+ },
+ "smx-llc": {
+  "company": "SMX, LLC",
+  "fit_score": 5,
+  "tier": "DQ",
+  "reasoning": "Clay classifies this account as an IT services and consulting firm headquartered in Hollywood, MD, and the domain match is flagged as likely a different SMX (a government IT contractor), so the enrichment and hiring data may not describe a warehouse operator. The 5 material-handling postings look like a real operation, but without a verified operating entity they cannot be treated as a Brava fit, and IT services firms are disqualified under our ICP rules.",
+  "brief": [
+   "Entity is unverified: Clay lists an IT services firm (1,973 employees, HQ Hollywood, MD), and the domain match is probably a different SMX, so what this company runs is unknown.",
+   "Hiring signal: 5 material-handling postings (Forklift Order Picker, Material Handler, Warehouse Order Picker) across 5 sites in 30 days, with no industrial automation or controls roles. The postings suggest a warehouse operation, but that conflicts with the IT services classification.",
+   "Before any outreach, confirm the legal entity and its physical operations (for example, via the job posting employer name, careers page, or site addresses). If it is a 3PL or distributor with a different domain, re-run enrichment under the correct company record and re-score."
+  ]
+ },
+ "kenroc-building-materials": {
+  "company": "Kenroc Building Materials",
+  "fit_score": 60,
+  "tier": "B",
+  "reasoning": "Kenroc has a clear repetitive-handling labor pain, with 5 material handler and warehouse associate postings across 5 sites in 30 days, and a rules score in the top 5% of the pool (rank 23 of 440). It stays at B rather than A because there are no automation or controls postings, the company is mid-size (148 employees), and its Regina HQ with Alberta-based ops contacts needs confirmation of the physical operation footprint before a pursuit push.",
+  "brief": [
+   "Wholesale building materials distributor (Regina, SK per Clay) with multi-site warehouse operations, where tote and case handling is likely done manually by material handlers and warehouse associates.",
+   "Five concurrent material-handling postings across five sites in the last 30 days signal persistent, network-wide hourly labor churn, which makes a repeatable, RaaS-priced robot an easier conversation now than when hiring is quiet.",
+   "Start with a 2-robot pilot at one high-volume DC on the transfer or replenishment task that drives the most handler postings, then use pilot throughput and labor-hours data to expand across the other sites."
+  ]
+ },
+ "lkq": {
+  "company": "LKQ",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "LKQ is a large North American distributor with a 10,001+ employee base and a warehouse footprint, which fits the ICP's high-volume material-handling profile. The score is held to B because the hiring signal is modest (5 material-handling postings across 5 sites in 30 days) and there are no automation or controls postings, so it is a nurture-and-monitor account rather than a pursue-now one.",
+  "brief": [
+   "Automotive aftermarket parts distributor (HQ Chicago) with multi-site distribution operations; the repetitive tote and case handling labor pain sits in its warehouse network, though facility count and volume data are not in our sources and should be verified.",
+   "Five 'Warehouse Worker' postings across five sites in the last 30 days indicate recurring, site-by-site hourly staffing for the same repetitive work. Timing is worth watching, but it is one signal, not a sustained hiring wave.",
+   "Pilot angle: propose a 2-robot tote-transfer or line-side replenishment pilot at one high-hiring-volume DC, with a standardized process-improvement scorecard (labor hours per tote, open-req days) that expands to other sites if it performs."
+  ]
+ },
+ "powell-industries-inc": {
+  "company": "Powell Industries, Inc.",
+  "fit_score": 48,
+  "tier": "B",
+  "reasoning": "Powell is a real, mid-sized electrical equipment manufacturer with six material-handling postings across three sites, including nights and weekend shifts, which points to persistent hourly labor pain. However, the postings are for steel fabrication and mechanical assembly rather than high-volume tote or case handling, and there are zero automation or controls hires, so the fit is partial and warrants nurture rather than immediate pursuit.",
+  "brief": [
+   "Runs engineered-to-order electrical switchgear and power equipment manufacturing in Houston, with steel fabration and mechanical assembly lines. Work is high-mix and custom, not repetitive tote flow, so labor pain is in staging and moving heavy components and materials to the line.",
+   "Six material-handler postings across three sites in 30 days, several on nights and weekends, signal recurring coverage gaps. No automation or controls postings yet, so there is no internal automation owner signal; the timing is a hiring-pressure signal, not an automation-buying signal.",
+   "Pilot angle: a narrow 2-robot trial on line-side material replenishment or kitting between fabrication/staging and one assembly cell on a single site, scoped to the night shift where the gaps are most visible. Validate repeatability of the task before proposing network expansion."
+  ]
+ },
+ "armstrong-fluid-technology": {
+  "company": "Armstrong Fluid Technology",
+  "fit_score": 60,
+  "tier": "B",
+  "reasoning": "Armstrong is a North American industrial machinery manufacturer of roughly 1,300 employees, which fits the automation-ready profile, and its five controls/automation postings signal active investment. The labor-pain signal is weaker: only two material-handling postings across two sites in 30 days, so persistent hourly hiring is not yet clearly established.",
+  "brief": [
+   "Industrial machinery/fluid-technology manufacturer (Toronto HQ, ~1,289 employees, $500M-1B revenue) with material handling at more than one site; exact tote/case flows are not confirmed.",
+   "Hiring is controls-heavy (Controls Engineer, Senior Controls Engineer, plus automation roles) alongside two Material Handler openings, including an afternoon shift, across two sites. This points to an automation build-out where Brava could fill the manual handling gap, but the hourly signal is thin, so verify before prioritizing.",
+   "Pilot 2-3 robots at one site for tote transfer between conveyors or line-side replenishment, with the controls team as the integration partner. Use the afternoon material handler shift as the first labor-coverage target."
+  ]
+ },
+ "the-vitamin-shoppe": {
+  "company": "The Vitamin Shoppe",
+  "fit_score": 52,
+  "tier": "B",
+  "reasoning": "Vitamin Shoppe runs distribution centers and has steady material-handling demand, with 4 warehouse forklift postings across 4 sites in the last 30 days. However, it is a retailer whose headcount is mostly store-based, and there are zero industrial automation or controls postings, so the automation-readiness signal is weak.",
+  "brief": [
+   "Retailer (Secaucus, NJ HQ, ~3,650 employees) with distribution network supplying its store base; labor pain is in DC receiving, put-away, and tote/case moves, not store floors.",
+   "Four material-handling postings (e.g., Warehouse Forklift Driver) across four sites in 30 days signal recurring hourly churn in the network, but the volume is modest and no automation hiring appears yet.",
+   "Pilot angle: a 2-robot tote-transfer or replenishment pilot at one high-volume DC where forklift-driver turnover is highest, with a clear labor-hours and throughput baseline, then expand network-wide if it holds."
+  ]
+ },
+ "lineage-logistics": {
+  "company": "Lineage Logistics",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "Lineage is a large (11,145 employees, $1-10B revenue) warehousing operator with the high-volume material handling Brava targets, and it ranks 28 of 440 on the rules score. However, the hiring signal is thin (4 material-handling postings across 4 sites, mostly forklift roles rather than tote/case work) and there are no automation or controls postings, so it belongs in nurture until a stronger trigger appears.",
+  "brief": [
+   "Large warehousing and distribution operator with multi-site networks; the labor pain is repetitive material handling (forklift and tote/case moves) that is hard to staff consistently across sites.",
+   "Four material-handling postings across four sites in the last 30 days, including Forklift Driver and High Reach Forklift Driver, suggest recurring hourly-labor churn, but the volume is modest and forklift roles are a partial fit for Brava's tote-focused scope.",
+   "Pilot angle: a 2-3 robot tote transfer or line-side replenishment pilot at one high-volume site where material-handler openings are persistent, with a path to network expansion if labor metrics improve."
+  ]
+ },
+ "quincaillerie-richelieu": {
+  "company": "Quincaillerie Richelieu",
+  "fit_score": 61,
+  "tier": "B",
+  "reasoning": "Richelieu is a Montreal-based building-materials distributor with 1,416 employees and a multi-site distribution footprint, which matches the target profile of a North American operator with real warehouse volume. The signal is moderate: four material-handler postings across four sites in 30 days, but no automation or controls hiring, so it is a nurture account rather than an immediate pursuit.",
+  "brief": [
+   "Likely runs multiple distribution centers that receive, store and ship building hardware and materials; manual tote and case movement between receiving, storage and shipping is the probable labor pain point. Confirm the DC count and throughput before outreach.",
+   "Four open Warehouse Material Handler reqs across four sites in the last 30 days suggests recurring hourly turnover in the same role, a common trigger for evaluating automation. No automation/controls postings yet, so the automation-readiness bonus is absent.",
+   "Pilot angle: 2-3 humanoid units on one high-volume DC's tote transfer or line-side replenishment lane, positioned as relief for recurring material-handler backfill, with a clear site-level success metric (units moved per shift, hires avoided)."
+  ]
+ },
+ "daikin": {
+  "company": "Daikin",
+  "fit_score": 58,
+  "tier": "B",
+  "reasoning": "Daikin Comfort is a large (4,605 employees), multi-site manufacturer with hourly material-handling roles, which fits Brava's ICP. The hiring signal is thin, with only 4 generic Warehouse Associate postings across 4 sites and no automation or controls hiring, so the account ranks mid-pack (33.8, rank 30 of 440) and belongs in nurture.",
+  "brief": [
+   "Runs HVAC equipment manufacturing and distribution out of Texas with multiple plants and supply chain operations; the likely labor pain is repetitive tote, case and material movement between production, staging and shipping, done by hourly associates.",
+   "Four Warehouse Associate postings across four sites in the last 30 days point to recurring hourly staffing strain across the network, not a single-site spike. No automation or controls postings yet, so this is an early, not urgent, signal.",
+   "Start with a 2-3 robot pilot at one high-volume site, scoped to a single tote-transfer or line-side replenishment flow, with success measured on labor hours redeployed and throughput. Use the supply chain lead for network sponsorship and the manufacturing/IE lead for plant-floor scoping."
+  ]
+ },
+ "rexel-usa": {
+  "company": "Rexel USA",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "Rexel USA runs real distribution-center operations with persistent hourly picking and warehouse-associate hiring across three sites, which fits Brava's tote-handling use case. It stays at B rather than A because the postings are thin (4 roles, none for automation or controls), and the Clay firmographics conflict with each other (3,606 employees vs. the 10,001+ band) and with the electrical-distribution business model, so the enrichment should be verified before outreach.",
+  "brief": [
+   "Runs electrical distribution centers with order picking and tote/case movement done by people; the labor pain is repetitive hourly picking and associate turnover that the Clay appliance/manufacturing classification doesn't reflect.",
+   "The job postings API shows 4 material-handling reqs (Order Picker, Warehouse Associate) across 3 sites in the last 30 days, indicating ongoing hourly hiring now; no automation or controls postings yet, so automation readiness is unproven.",
+   "Pilot 2-3 humanoids on one high-volume DC's tote transfer or line-side replenishment, using the open picker reqs as the baseline to measure against, then expand across the network if throughput holds."
+  ]
+ },
+ "e-b-horsman-son": {
+  "company": "E.B. Horsman & Son",
+  "fit_score": 55,
+  "tier": "B",
+  "reasoning": "Wholesale operator with 287 employees and 4 material-handling postings across 3 sites fits the persistent hourly-labor pattern, but the hiring signal is modest (rank 32 of 440) and there are no automation or controls postings. The '(CA)' label conflicts with a British Columbia HQ, so confirm this is the correct entity and that the company is North American before outreach.",
+  "brief": [
+   "Wholesale distributor (287 employees, $75M-200M revenue, Surrey, BC) with warehouse operations at three or more sites, where material handling labor is the recurring pain.",
+   "Four Material Handler (Warehouse) postings across three sites in the last 30 days signal ongoing hourly churn; no automation or controls hiring suggests they have not yet started an automation initiative, so this is a nurture-stage account.",
+   "Suggested pilot: 2-3 humanoid units on one high-volume site's tote transfer or case-handling lane, using the site with the most open material-handler reqs as the pilot target."
+  ]
+ },
+ "tigercat": {
+  "company": "Tigercat",
+  "fit_score": 42,
+  "tier": "C",
+  "reasoning": "Tigercat is a North American manufacturer with 712 employees and forklift-heavy material-handling postings across 3 sites, which fits the labor-pain pattern. However, it builds large forestry machines rather than running high-volume tote or case flows, there are no automation or controls postings, and no buyer contacts were found, so the fit is unproven.",
+  "brief": [
+   "Runs a machinery manufacturing operation (HQ Brantford, Ontario; 712 employees) that moves large fabricated components and finished machines, likely by forklift rather than tote conveyor, so the repetitive tote/case use case is unconfirmed.",
+   "Four material-handling postings (Forklift Operator, Material Handler - Forklift Operator) across 3 sites in the last 30 days signal ongoing hourly handling demand, but the volume is modest and there are zero automation/controls hires, so urgency is low.",
+   "If pursued, the pilot angle would be a single-site line-side replenishment or component-staging pilot (2 robots) to test whether tote-level movement exists before any broader conversation. Verify the 'CA' market tag, since HQ is in Ontario, before routing."
+  ]
+ },
+ "alliance-us": {
+  "company": "Alliance US",
+  "fit_score": 45,
+  "tier": "C",
+  "reasoning": "Four material-handling postings across 3 sites (Warehouse Associate) suggest recurring hourly labor pain that fits Brava's tote and case work, and the rank of 34 of 440 reflects that. However, Clay returned no firmographics and no buyer contacts, so the company's operating model is unverified, and the absence of any automation or controls postings lowers the automation-readiness signal.",
+  "brief": [
+   "Unverified: Clay has no firmographics, so it is unconfirmed whether Alliance US runs distribution, 3PL, or plant operations, or whether 'Warehouse Associate' roles are in a warehouse or a retail/store setting. Verify the business model and site types before any outreach.",
+   "Signal: 4 material-handling postings across 3 sites in the last 30 days point to repeat hiring at multiple locations, which is the pattern Brava targets. No automation or controls hiring, and no evidence of existing AMRs or conveyors, so automation readiness is unknown.",
+   "Suggested pilot angle, only if verification confirms a warehouse operation: a 2-robot tote-transfer pilot at the highest-volume of the three sites, positioned as a way to relieve recurring associate hiring rather than as a full automation program. Hold until contacts are identified."
+  ]
+ },
+ "conagra-brands": {
+  "company": "Conagra Brands",
+  "fit_score": 72,
+  "tier": "A",
+  "reasoning": "Conagra is a large North American food manufacturer with plants, freezer operations and distribution sites, which matches Brava's tote and case handling profile. The hiring signal is moderate (four forklift and material-handling postings across two sites in 30 days, with no automation or controls roles), so the score reflects strong structural fit tempered by a limited near-term signal.",
+  "brief": [
+   "Runs multi-site food manufacturing and distribution, including blast and freezer operations, receiving and buffer staging. Repetitive tote and case movement between these steps is where hourly labor is concentrated.",
+   "Four forklift-driver postings across two sites on second and third shifts in the last 30 days, including Blast, Receiving, Buffer and Freezer roles. Recurring hiring for the same material-handling work suggests persistent labor churn that is worth addressing now, before it spreads to more sites.",
+   "Start with a 2-3 robot pilot at one site on receiving-to-buffer or blast-to-pack tote transfer, covering the repetitive moves that forklift drivers handle today. Measure hours redeployed and shift fill rate, then use the results to expand across the network through [contact]'s productivity program."
+  ]
+ },
+ "drive-medical": {
+  "company": "Drive Medical",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "Drive Medical is a mid-size (847 employees) manufacturer and distributor of medical equipment with 4 order-picking and material-handling postings across 2 sites in the last 30 days, which fits the repetitive tote and case handling profile. The score stays in B rather than A because there are zero industrial automation or controls postings, no evidence of existing AMRs or conveyor automation, and the hiring volume is modest.",
+  "brief": [
+   "Mid-size medical equipment manufacturer (HQ Port Washington, NY) with distribution and order-fulfillment operations; order picking and material handling appear to be done manually today.",
+   "Signal: 4 material-handling postings (Order Picker titles) across 2 sites in the last 30 days, with no automation hiring. This suggests recurring picking labor need, but not yet a formal automation program.",
+   "Pilot angle: 2 robots on one high-volume order-picking or tote-transfer lane at the Atlanta-area site, framed as relief for picker hiring and turnover, with a path to expand across the second site."
+  ]
+ },
+ "convoy-supply": {
+  "company": "Convoy Supply",
+  "fit_score": 38,
+  "tier": "C",
+  "reasoning": "Convoy Supply shows real material-handling labor demand: 4 open postings across 2 sites, including forklift and material handler roles. However, Clay found no firmographics, there are no industrial automation or controls postings, and no buyer contacts exist, so the account can't be confirmed as a high-volume DC, 3PL, or plant, and it can't be worked yet.",
+  "brief": [
+   "Unverified operation: postings for a Forklift Operator (morning shift) and a Roof Loader/Material Handler suggest manual dock and material movement at 2 sites, but facility type, volume, and whether it is a staffing agency are unconfirmed. Verify before any outreach.",
+   "Signal: 4 material-handling openings in the last 30 days, with no automation/controls hiring. This is recurring hourly-labor pain, but with no automation-readiness signal and no enrichment, it is a weak 'why now.'",
+   "Pilot angle if verified as a real warehouse operator: a 2-robot tote/case transfer pilot at the site with the most material-handler openings, to test whether the hiring pressure justifies expansion. Do not pursue until firmographics and a buyer contact are confirmed."
+  ]
+ },
+ "cornerstone-building-brands": {
+  "company": "Cornerstone Building Brands",
+  "fit_score": 62,
+  "tier": "B",
+  "reasoning": "Cornerstone is a large, multi-plant building products operator with real material-handling volume, which matches the ICP's scale and footprint. However, the hiring signal is modest (4 material-handling postings across 2 sites in 30 days) with no automation or controls hiring, so this is a nurture account rather than an immediate pursuit.",
+  "brief": [
+   "Large building products manufacturer and distributor (vinyl windows, doors, metal components) with plants and distribution sites across North America; labor pain is in repetitive tote, case and component movement and line-side material handling.",
+   "Rules-based score of 29.2 (rank 38 of 440) is driven by 4 open Warehouse Associate-type postings across 2 sites in the last 30 days; no automation or controls roles posted, so the signal is moderate and not yet urgent.",
+   "Pilot angle: a 2-3 robot tote-transfer or line-side replenishment pilot at one high-volume plant in the Metal Solutions or Windows & Doors network, framed as a way to reduce recurring hourly backfill before expanding across sites."
+  ]
+ },
+ "upper-canada-forest-products": {
+  "company": "Upper Canada Forest Products",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "The account has some material-handling hiring (4 Warehouse Associate/Driver postings across 2 sites in 30 days) and is North American. However, there are no firmographics, no automation or controls hiring, and no buyer contacts, and the rules score (29.2, rank 39 of 440) is modest, so the fit and even the entity match are unverified.",
+  "brief": [
+   "Operates in forest products (name suggests lumber/wood manufacturing or distribution, unconfirmed). Labor pain is visible in warehouse associate and driver hiring at 2 sites, but the scale and whether these are tote/case handling roles is unknown.",
+   "Signal is 4 material-handling postings across 2 sites in the last 30 days, with no automation or controls postings. Enrichment returned no firmographics, so verify this is the correct entity and a real warehouse/plant operation before investing time.",
+   "If verified, a small 2-robot pilot at the site with the highest handling volume, focused on tote/case transfer or line-side replenishment, could test whether the labor pain is repetitive enough to fit. Start with a firmographic check and site-level volume confirmation."
+  ]
+ },
+ "poly-america": {
+  "company": "Poly America",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "Three material-handling postings across three sites, including Forklift Driver, show the repetitive tote and material-handling labor pain Brava targets, and the rules score ranks it 40 of 440. However, Clay returned no firmographics, so there is no verified evidence this is a North American DC, 3PL, or plant, and there are zero automation/controls postings and no buyer contacts.",
+  "brief": [
+   "What they run is unverified: the enrichment miss means no confirmed industry, facility type, or footprint. Confirm it is a real warehouse or plant operation before any outreach.",
+   "Signal: 3 material-handling postings across 3 sites in the last 30 days (sample: Forklift Driver) suggest recurring hourly handling-labor hiring, but no automation or controls hiring, so automation readiness is unproven.",
+   "Suggested pilot angle, if verified: a 2-3 robot tote-transfer pilot at the single highest-hiring site, framed around reducing forklift-driver and material-handler backfill, with the network expansion as the upside."
+  ]
+ },
+ "ufp-industries": {
+  "company": "UFP Industries",
+  "fit_score": 58,
+  "tier": "B",
+  "reasoning": "UFP has real plant and distribution operations with material-handling roles across three sites, which matches Brava's target profile and the 10,001+ employee, $1-10B size band. The hiring signal is modest (3 forklift driver postings, no automation or controls roles), and forklift work on lumber and panels is a weaker match for tote and case automation, so this is nurture rather than pursue-now.",
+  "brief": [
+   "Manufacturer and distributor of wood components, lumber, packaging and building products with plants and DCs across the US; Grand Rapids HQ, 3,049 employees. Material handling (forklift and line-side moves) is the likely labor pain point.",
+   "Three forklift driver postings across three sites in the last 30 days suggest recurring material-handling hiring, but no automation or controls postings, so there is no visible automation program yet. Why now is weak; treat this as a nurture touch.",
+   "Pilot angle: 2 robots on one site's highest-volume tote or case transfer between conveyors, packaging, or line-side replenishment. Use the Greensboro or Mishawaka sites as candidates, and confirm which lanes are tote-based before proposing."
+  ]
+ },
+ "keurig-dr-pepper": {
+  "company": "Keurig Dr Pepper",
+  "fit_score": 66,
+  "tier": "B",
+  "reasoning": "Keurig Dr Pepper is a large (10,001+ employees, $10-100B revenue) beverage operator with multi-site distribution, which matches the ICP's scale and material-handling profile. The hiring signal is thin (3 material-handling postings across 3 sites, with no automation or controls roles), so it earns nurture rather than immediate pursuit, though the rule-based rank of 42 of 440 supports some outreach.",
+  "brief": [
+   "Large beverage manufacturer and distributor with multiple distribution and warehouse sites; likely labor pain is in order picking and tote/case movement, which Brava's robots target.",
+   "Three warehouse order-picker and selector postings across three sites in the last 30 days suggest recurring hourly labor demand, but volume is modest and there are no automation or controls hires yet, so timing is a nurture signal rather than a hard trigger.",
+   "Pilot angle: a 2-3 robot tote-transfer or picking pilot at one high-volume DC where order-picker postings are concentrated, framed as capacity relief for hourly roles that are hard to fill, with a path to network expansion."
+  ]
+ },
+ "the-mayfair-group": {
+  "company": "The Mayfair Group",
+  "fit_score": 40,
+  "tier": "C",
+  "reasoning": "Three order-picker postings across three sites suggest recurring picking labor pain that fits Brava's tote-handling use case, but Clay returned no firmographics, so we cannot confirm this is a warehouse operator rather than a mismatched entity. There are no automation or controls postings and no buyer contacts, so the account stays in nurture until firmographics are verified and a buyer is identified.",
+  "brief": [
+   "Unverified operator: Clay has no firmographic data, so the business model, site footprint, and whether The Mayfair Group runs DCs or plants are unknown. Verify the entity before investing outreach effort.",
+   "Signal: 3 material-handling postings (Order Picker, Order Picker/Packer, Warehouse Order Picker) across 3 sites in the last 30 days indicate repetitive picking labor that is hard to fill. Rules score of 29.1 ranks it 43 of 440, but there are no automation/controls postings to indicate automation readiness.",
+   "Pilot angle if verified: a 2-robot tote-picking or transfer pilot at the highest-volume of the three sites, positioned as relief for the picker hiring gap and a path to expand across the network."
+  ]
+ },
+ "platinum-coastal-group-inc": {
+  "company": "Platinum Coastal Group Inc",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "Three material-handling postings (Order Picker) across three sites in 30 days suggest recurring hourly picking labor, but there are no firmographics, no confirmed industry, and no automation or controls postings. Without verified company details, we cannot confirm it is a real North American DC, 3PL, or plant operator, so it stays at C until enrichment succeeds.",
+  "brief": [
+   "Likely runs warehouse or distribution picking across at least 3 sites, based only on the Order Picker postings; the operation is unverified because Clay returned no firmographics.",
+   "Signal: 3 material-handling postings across 3 sites in the last 30 days, with 0 automation/controls postings, so the labor pain is visible but no automation-readiness signal exists yet. Rules-based score 29.1 (rank 44 of 440).",
+   "If verified as a DC or 3PL operator, pitch a 2-5 robot tote-transfer pilot at the highest-volume site where the order picker openings cluster, with RaaS pricing (~$10-30K/robot/year)."
+  ]
+ },
+ "savers-value-village": {
+  "company": "Savers/Value Village",
+  "fit_score": 48,
+  "tier": "C",
+  "reasoning": "Savers/Value Village is a retailer with a large donation-processing and warehouse footprint, so it is not an automatic disqualification, but the signal is thin: only 3 material-handling postings across 3 sites (rank 45 of 440, score 29.1) and no automation or controls hiring. The Retail classification and lack of persistent multi-site labor pressure keep it below a nurture-tier fit for now.",
+  "brief": [
+   "Large (8,738 employees, $1-10B revenue) thrift retailer; labor pain is likely concentrated in donation intake, sorting and outbound warehouse flow rather than store floors, but the firmographics do not confirm the DC/processing footprint.",
+   "Only 3 warehouse-associate postings across 3 sites in the last 30 days, with no automation/controls roles, so the hiring signal is weak; the contact is an Operations Manager in the Calgary area, which may mean a Canadian operation rather than the HQ network.",
+   "If engaged, pitch a small 2-robot tote-transfer pilot at one processing or warehouse site to validate repetitive handling savings before any network-wide conversation; verify facility type and volume first."
+  ]
+ },
+ "canadian-bank-note-company": {
+  "company": "Canadian Bank Note Company",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "The Clay industry tag (IT Services/Consulting) conflicts with the hiring signals, which point to a production plant: 2 Material Handler and Production Technician postings across 2 sites plus 1 industrial automation posting. Because the firmographics may be a wrong-entity or mis-tagged match, the account should be verified as a secure-printing manufacturer before it is treated as a warehouse/plant prospect, and it has no buyer contacts yet.",
+  "brief": [
+   "Likely operates secure printing and production facilities in Ottawa (banknotes/secure documents), where material handling is internal to production lines. Verify this against the Clay IT Services tag before any outreach.",
+   "Two material-handling and one automation posting in the last 30 days suggest recurring hourly handling labor and some controls work. The signal is modest (rules score 27.7, rank 46 of 440), so it is not a strong urgency trigger.",
+   "If verified as a plant, a 2-robot pilot on tote/case transfer between production lines or line-side replenishment would be the entry point. Security and compliance requirements for a secure-printing site would need to be scoped first."
+  ]
+ },
+ "equity-lifestyle-properties": {
+  "company": "Equity LifeStyle Properties",
+  "fit_score": 5,
+  "tier": "DQ",
+  "reasoning": "Equity LifeStyle Properties is a REIT that owns manufactured housing communities, RV resorts and marinas, with no warehouse, distribution or plant tote/case operation. The three 'Forklift Driver' and 'Marine Forklift Driver' postings look like dry-stack boat storage at marinas, not repetitive material handling, and the high rank (47 of 440) reflects forklift keywords rather than Brava's ICP.",
+  "brief": [
+   "What they run: a real estate portfolio of manufactured home communities, RV resorts and marinas, with no distribution center, 3PL or manufacturing site that moves totes or cases.",
+   "Signal: 3 forklift postings across 2 sites, likely marina dry-stack and yard work; 0 automation/controls roles. The score is inflated by the keyword 'forklift' and should not drive outreach.",
+   "Pilot angle: none. Brava's tote and case handling does not map to marina or community operations. Revisit only if the company gains a warehouse operation."
+  ]
+ },
+ "mauser-packaging-solutions": {
+  "company": "Mauser Packaging Solutions",
+  "fit_score": 58,
+  "tier": "B",
+  "reasoning": "Mauser is a real, large North American packaging manufacturer with plant-level material handling, so the operation fits the ICP. The hiring signal is modest (3 forklift and material handler postings across 2 sites in 30 days, with no automation or controls roles), which supports nurturing rather than immediate pursuit.",
+  "brief": [
+   "Mauser makes industrial packaging (steel and plastic containers) across multiple North American plants. Its material handling work is forklift-driven, including pallet/case moves, mezzanine material handling, and second-shift coverage.",
+   "Three open forklift and material handler roles across two sites in the last 30 days suggest ongoing hourly handling demand, including a 12-hour mezzanine role. There are no automation or controls postings, so automation readiness is unproven.",
+   "Pilot 2 to 3 Brava robots on one high-volume small-pack line for repetitive tote/case transfer and line-side replenishment, targeting the second-shift handling roles that are hardest to staff. Use the pilot to test whether the labor pain is structural before expanding."
+  ]
+ },
+ "tappwfs": {
+  "company": "TappWFS",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "The hiring signal is real but thin: three material-handling postings across two sites (forklift drivers on two shifts, plus a pharma material handler) with no automation or controls roles, and the rules score of 26.5 is only moderate. Firmographics are missing and the 'Temp to Hire' title could indicate a staffing agency, which is a disqualifier, so the account needs verification before it can be pursued.",
+  "brief": [
+   "Unverified: Clay returned no firmographics, so it is unconfirmed whether TappWFS operates a warehouse, DC or plant, or is a staffing/services firm posting roles for a client. Verify entity type and operating footprint first.",
+   "Signal: 3 material-handling postings across 2 sites in the last 30 days (2 forklift driver shifts, 1 temp-to-hire material handler in pharmaceutical production). Repetitive material movement is hiring-heavy, but volume is low and there are no automation or controls postings.",
+   "Possible pilot angle, only if verified as a direct operator: a 2-robot tote-transfer pilot at the pharma production site, where temp-to-hire churn on material handling is the labor pain. Do not engage until the entity check clears."
+  ]
+ },
+ "jenco-canada-inc": {
+  "company": "Jenco Canada Inc.",
+  "fit_score": 35,
+  "tier": "C",
+  "reasoning": "Three material-handler postings across two sites suggest recurring manual tote/material movement, which matches the ICP. However, Clay returned no firmographics, no automation or controls postings exist, and the rules-based score of 26.5 ranks only 50th of 440, so fit can't be confirmed and the account isn't ready for outreach.",
+  "brief": [
+   "Operation unverified: material-handler postings at 2 sites imply manual material movement, but Clay has no firmographics, so the facility type, size, and whether it is a DC, 3PL, or plant are unknown.",
+   "Signal is modest and not automation-ready: 3 postings in 30 days with zero industrial automation or controls postings, so there is no evidence of an automation program or a pending investment.",
+   "Suggested angle if verified: a 2-3 robot tote-transfer pilot at the site with the most material-handler openings. First, confirm the entity, operation type, and a buyer contact before any outreach."
+  ]
+ }
+}
