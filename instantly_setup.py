@@ -31,8 +31,11 @@ def html(*lines):
     return "".join(f"<div>{l or '<br>'}</div>" for l in lines)
 
 
+# Step 1 is one template; the A/B angle and subject come from per-lead custom variables
+# (see variants.py), so the variant is assigned in code and attributable in HubSpot.
 STEP_1 = html(
     "{{personalization}}", "",
+    "{{angle}}", "",
     "I'm with Brava Robotics. We run humanoid robots on a Robot-as-a-Service basis for the repetitive tote "
     "and case moves that keep showing up in material-handler reqs: conveyor-to-conveyor transfers, line-side "
     "replenishment and palletizing support.", "",
@@ -58,7 +61,7 @@ def campaign():
         "campaign_schedule": {"schedules": [{"name": "All week", "timing": {"from": "00:00", "to": "23:59"},
                                              "days": days, "timezone": "America/Detroit"}]},
         "sequences": [{"steps": [
-            {"type": "email", "delay": 2, "variants": [{"subject": "tote moves at {{companyName}}", "body": STEP_1}]},
+            {"type": "email", "delay": 2, "variants": [{"subject": "{{subject_line}}", "body": STEP_1}]},
             {"type": "email", "delay": 0, "variants": [{"subject": "", "body": STEP_2}]}]}],
         "email_list": [os.environ["INSTANTLY_SENDER"]], "daily_limit": 10,
         "stop_on_reply": True, "link_tracking": False, "open_tracking": False})
@@ -66,6 +69,8 @@ def campaign():
 
 
 def leads():
+    from variants import VARIANTS
+    assigned = {v["account_key"]: v["variant"] for v in json.load(open("data/copy_variants.json")).values()}
     scored = json.load(open("data/ai_scored.json"))
     hs = {c["gtm_account_key"]: c["id"] for c in json.load(open("data/hubspot_snapshot.json"))["companies"]}
     for l in TEST_LEADS:
@@ -74,7 +79,11 @@ def leads():
         call("POST", "/leads", {
             "email": l["email"], "first_name": l["first_name"], "last_name": "(test)",
             "company_name": l["company_name"], "personalization": first_line,
-            "custom_variables": {"hubspot_company_id": hs[l["account_key"]], "account_key": l["account_key"]},
+            "custom_variables": {"hubspot_company_id": hs[l["account_key"]], "account_key": l["account_key"],
+                                 "copy_variant": assigned[l["account_key"]],
+                                 "angle": VARIANTS[assigned[l["account_key"]]]["angle"],
+                                 "subject_line": VARIANTS[assigned[l["account_key"]]]["subject"].replace(
+                                     "{{companyName}}", l["company_name"])},
             "campaign": os.environ["INSTANTLY_CAMPAIGN_ID"]})
     print(f"loaded {len(TEST_LEADS)} leads")
 

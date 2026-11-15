@@ -1,0 +1,52 @@
+{
+ "rows": [
+  {
+   "variant": "A_signal",
+   "contacts": 31,
+   "accounts": 18,
+   "pct_tier_a": 42.0,
+   "pct_enterprise": 81.0,
+   "sends": 0,
+   "replies": 0,
+   "interested": 0,
+   "reply_rate_pct": null,
+   "status": "collecting (needs 200 sends per arm)"
+  },
+  {
+   "variant": "B_cost",
+   "contacts": 30,
+   "accounts": 16,
+   "pct_tier_a": 37.0,
+   "pct_enterprise": 80.0,
+   "sends": 0,
+   "replies": 0,
+   "interested": 0,
+   "reply_rate_pct": null,
+   "status": "collecting (needs 200 sends per arm)"
+  }
+ ],
+ "meta": [
+  {
+   "label": "08_copy_variant_test.sql",
+   "value": "-- Copy variant test: is the split balanced, and which opening angle earns more replies?\n-- Balance columns are readable now; result columns fill in once sends carry a variant.\nWITH arms AS (\n  SELECT v.variant,\n         COUNT(*)                                             AS contacts,\n         COUNT(DISTINCT v.account_key)                        AS accounts,\n         ROUND(100.0 * AVG(CASE WHEN c.gtm_icp_tier = 'A' THEN 1 ELSE 0 END), 0) AS pct_tier_a,\n         ROUND(100.0 * AVG(CASE WHEN c.gtm_segment = 'enterprise' THEN 1 ELSE 0 END), 0) AS pct_enterprise\n  FROM copy_variants v JOIN hs_companies c ON c.gtm_account_key = v.account_key\n  GROUP BY v.variant\n), results AS (\n  SELECT s.variant,\n         COUNT(*)                                                      AS sends,\n         COUNT(*) FILTER (WHERE s.replied)                             AS replies,\n         COUNT(*) FILTER (WHERE s.reply_class = 'interested')          AS interested\n  FROM variant_sends s GROUP BY s.variant\n)\nSELECT a.variant, a.contacts, a.accounts, a.pct_tier_a, a.pct_enterprise,\n       COALESCE(r.sends, 0)      AS sends,\n       COALESCE(r.replies, 0)    AS replies,\n       COALESCE(r.interested, 0) AS interested,\n       CASE WHEN COALESCE(r.sends, 0) = 0 THEN NULL\n            ELSE ROUND(100.0 * r.replies / r.sends, 1) END AS reply_rate_pct,\n       CASE WHEN COALESCE(r.sends, 0) < 200 THEN 'collecting (needs 200 sends per arm)'\n            ELSE 'readable' END AS status\nFROM arms a LEFT JOIN results r USING (variant)\nORDER BY a.variant;\n",
+   "type": "code",
+   "lang": "sql"
+  },
+  {
+   "label": "Assignment",
+   "value": "variants.py: accounts alternated A/B within each segment x tier bucket; every contact at an account gets the same variant; written to HubSpot as gtm_copy_variant"
+  },
+  {
+   "label": "Variants",
+   "value": "A_signal opens on the detected hiring signal; B_cost opens on the cost of unfilled shifts (overtime, temp-agency premiums)"
+  },
+  {
+   "label": "Status",
+   "value": "No sends carry a variant yet: the 3 test emails went out before variants existed, so they are excluded. Results need ~200 sends per arm."
+  },
+  {
+   "label": "Warehouse",
+   "value": "DuckDB, built by warehouse.py"
+  }
+ ]
+}

@@ -10,6 +10,8 @@ Tables
   hs_companies          HubSpot snapshot (enrichment, AI tier/score, segment, routing)
   hs_contacts           HubSpot contacts (persona, first-line coverage, reply class)
   ai_run_log            one row per Claude call (latency, tokens, retries, errors)
+  copy_variants         A/B copy assignment per contact (variants.py), stratified by segment x tier
+  variant_sends         one row per send that carried a variant (filled from Instantly)
 """
 import glob, json, os
 import duckdb
@@ -37,6 +39,15 @@ companies = [{k: (float(v) if k in num and v not in (None, "") else (v or None))
              for c in snap["companies"]]
 load("hs_companies", companies)
 load("hs_contacts", snap["contacts"])
+
+# Copy variant test (variants.py): assignment per contact, and one row per send that carried a variant.
+# variant_sends is empty until the next send; the 3 test emails went out before variants existed.
+load("copy_variants", [{"contact_id": k, **v} for k, v in json.load(open("data/copy_variants.json")).items()])
+sends = json.load(open("data/variant_sends.json")) if os.path.exists("data/variant_sends.json") else []
+con.execute("DROP TABLE IF EXISTS variant_sends")
+con.execute("CREATE TABLE variant_sends (contact_id VARCHAR, variant VARCHAR, replied BOOLEAN, reply_class VARCHAR)")
+for r in sends:
+    con.execute("INSERT INTO variant_sends VALUES (?, ?, ?, ?)", [r["contact_id"], r["variant"], r["replied"], r.get("reply_class")])
 
 log = [json.loads(l) for l in open("data/ai_run_log.jsonl")]
 for l in log:

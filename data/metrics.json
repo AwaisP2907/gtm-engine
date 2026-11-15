@@ -287,5 +287,31 @@
    "lead_contact": "Contact 017 \u2014 Vice President of Operations Food Grocery & Retail"
   }
  ],
+ "copy_variant_test": [
+  {
+   "variant": "A_signal",
+   "contacts": 31,
+   "accounts": 18,
+   "pct_tier_a": 42.0,
+   "pct_enterprise": 81.0,
+   "sends": 0,
+   "replies": 0,
+   "interested": 0,
+   "reply_rate_pct": null,
+   "status": "collecting (needs 200 sends per arm)"
+  },
+  {
+   "variant": "B_cost",
+   "contacts": 30,
+   "accounts": 16,
+   "pct_tier_a": 37.0,
+   "pct_enterprise": 80.0,
+   "sends": 0,
+   "replies": 0,
+   "interested": 0,
+   "reply_rate_pct": null,
+   "status": "collecting (needs 200 sends per arm)"
+  }
+ ],
  "_exported_at": "2026-11-14T22:48:09.707Z"
 }

@@ -35,6 +35,8 @@ flowchart LR
   H -->|reply_received webhook| I[Make: Handle replies<br/>Claude classifies reply]
   I --> J[HubSpot deal<br/>Qualified to Buy]
   I --> G
+  D --> V[variants.py<br/>A/B copy, stratified]
+  V --> H
   D --> K[warehouse.py<br/>DuckDB + sql/*.sql]
   K --> L[Dashboard]
 ```
@@ -48,7 +50,8 @@ flowchart LR
 | 5. Routing | `hubspot_sync.py route`, `make/` | Posts each scored account to a Make webhook. The router sends Tier A enterprise to the AE and Tier A mid-market to the SDR, each with a Slack alert carrying the brief. Tier B goes to nurture and C/DQ gets parked. Every step has an error route to `#gtm-engine-alerts`. |
 | 6. Sequencing | `instantly_setup.py` | Builds the Instantly campaign (2 steps), loads leads with AI first lines, registers the reply webhook, launches. |
 | 7. Reply → pipeline | `make/` (Handle replies) | On reply, Claude classifies it (interested / objection / not now / wrong person / unsubscribe / OOO). The contact gets tagged; if interested, a deal is created and associated to the company, and Slack gets pinged with a summary and next step. |
-| 8. Analytics | `warehouse.py`, `sql/` | Loads every artifact into DuckDB and runs 7 queries: funnel, tier by segment, signal drivers, rules vs AI, AI ops (latency, tokens, failure rate), data-quality checks, rep worklist. |
+| 8. Copy testing | `variants.py`, `hubspot_sync.py variants` | Two step-1 angles: A opens on the hiring signal, B on the cost of unfilled shifts. Accounts are alternated A/B within each segment × tier bucket, so both arms get the same mix (31 vs 30 contacts, 42% vs 37% Tier A), and `hubspot_sync.py variants` writes it to each HubSpot contact so replies and deals trace back to the copy. Status: collecting. The 3 test sends predate the variants, and a reply-rate difference needs ~200 sends per arm. |
+| 9. Analytics | `warehouse.py`, `sql/` | Loads every artifact into DuckDB and runs 8 queries: funnel, tier by segment, signal drivers, rules vs AI, AI ops (latency, tokens, failure rate), data-quality checks, rep worklist, copy A/B test. |
 
 ## Run it
 
@@ -62,6 +65,7 @@ python hubspot_sync.py accounts           # upsert top 50 companies
 python hubspot_sync.py enrich             # upsert Clay firmographics + contacts
 python ai_score.py                        # Claude scoring -> data/ai_scored.json
 python hubspot_sync.py ai && python hubspot_sync.py segment
+python variants.py && python hubspot_sync.py variants   # stratified A/B copy assignment
 python make/build_blueprints.py           # import both JSONs into Make, fill placeholders
 python hubspot_sync.py route              # fire every account through the router
 python instantly_setup.py campaign && python instantly_setup.py leads \

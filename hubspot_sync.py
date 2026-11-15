@@ -6,6 +6,7 @@ Step 2/3/4 — HubSpot as the system of record.
   python hubspot_sync.py enrich     # write Clay firmographics + contacts, associate contact->company
   python hubspot_sync.py ai         # write AI tier/score/reasoning/brief + per-contact first lines
   python hubspot_sync.py segment    # derive Enterprise / Mid-Market / SMB from headcount
+  python hubspot_sync.py variants   # tag every contact with its A/B copy variant (from variants.py)
   python hubspot_sync.py route      # send every scored account to the Make routing webhook
   python hubspot_sync.py snapshot   # export companies + contacts for the SQL warehouse
 
@@ -84,6 +85,8 @@ CONTACT_PROPS = [
     P("gtm_persona", "Buyer Persona", "enumeration", "select",
       options=opts([("Economic Buyer", "economic_buyer"), ("Champion", "champion"), ("Operator", "operator")])),
     P("gtm_first_line", "AI First Line", "string", "textarea"),
+    P("gtm_copy_variant", "Copy Variant (A/B)", "enumeration", "select",
+      options=opts([("A - hiring signal", "A_signal"), ("B - labor cost", "B_cost")])),
     P("gtm_reply_class", "AI Reply Classification", "enumeration", "select",
       options=opts([(s, s) for s in ["interested", "objection", "not_now", "wrong_person", "unsubscribe", "out_of_office"]])),
 ]
@@ -231,6 +234,15 @@ def route():
     print(f"routed {len(cos)} accounts")
 
 
+def variants():
+    """Write each contact's A/B copy variant (variants.py) to HubSpot, so replies and deals trace to the copy."""
+    rows = json.load(open("data/copy_variants.json"))
+    inputs = [{"id": cid, "properties": {"gtm_copy_variant": v["variant"]}} for cid, v in rows.items()]
+    for b in batches(inputs):
+        call("POST", "/crm/v3/objects/contacts/batch/update", {"inputs": b})
+    print(f"tagged {len(inputs)} contacts with a copy variant")
+
+
 def snapshot():
     cos = search_all("companies", SRC, ["name", "gtm_account_key", "domain", "gtm_industry", "numberofemployees",
                                         "gtm_segment", "gtm_signal_rank", "gtm_signal_score", "gtm_labor_postings",
@@ -239,7 +251,7 @@ def snapshot():
     cts = search_all("contacts", [{"filters": [{"propertyName": "gtm_source", "operator": "EQ", "value": s}]}
                                   for s in ("clay_v1", "test_seed")],
                      ["firstname", "lastname", "jobtitle", "email", "gtm_account_key", "gtm_persona", "gtm_source",
-                      "gtm_first_line", "gtm_reply_class"])
+                      "gtm_first_line", "gtm_reply_class", "gtm_copy_variant"])
     for c in cts:
         c["has_first_line"] = bool(c.pop("gtm_first_line", None))
     json.dump({"exported_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "companies": cos, "contacts": cts},
@@ -249,4 +261,4 @@ def snapshot():
 
 if __name__ == "__main__":
     {"schema": schema, "accounts": accounts, "enrich": enrich, "ai": ai, "segment": segment,
-     "route": route, "snapshot": snapshot}[sys.argv[1]]()
+     "route": route, "variants": variants, "snapshot": snapshot}[sys.argv[1]]()

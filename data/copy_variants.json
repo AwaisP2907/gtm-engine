@@ -1,0 +1,307 @@
+{
+ "290179707889": {
+  "account_key": "fedex-ground",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179707890": {
+  "account_key": "walmart",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179707891": {
+  "account_key": "walmart",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179707892": {
+  "account_key": "the-home-depot-canada",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier C"
+ },
+ "290179707893": {
+  "account_key": "the-home-depot-canada",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier C"
+ },
+ "290179707894": {
+  "account_key": "wesco",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179707895": {
+  "account_key": "wesco",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179707896": {
+  "account_key": "tsg-the-sheridan-group",
+  "variant": "A_signal",
+  "bucket": "mid_market / Tier A"
+ },
+ "290179707897": {
+  "account_key": "tsg-the-sheridan-group",
+  "variant": "A_signal",
+  "bucket": "mid_market / Tier A"
+ },
+ "290179708858": {
+  "account_key": "performance-foodservice",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708859": {
+  "account_key": "performance-foodservice",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708860": {
+  "account_key": "duluth-trading-company",
+  "variant": "B_cost",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708861": {
+  "account_key": "ryder-system-inc",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708862": {
+  "account_key": "ryder-system-inc",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708863": {
+  "account_key": "ups",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708864": {
+  "account_key": "ups",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708865": {
+  "account_key": "novolex",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708866": {
+  "account_key": "novolex",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708867": {
+  "account_key": "taylor-communications",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708868": {
+  "account_key": "taylor-communications",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708869": {
+  "account_key": "staples",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708870": {
+  "account_key": "staples",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708871": {
+  "account_key": "reyes-holdings-llc",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708872": {
+  "account_key": "reyes-holdings-llc",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708873": {
+  "account_key": "williams-sonoma",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708874": {
+  "account_key": "williams-sonoma",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708875": {
+  "account_key": "gillfor-distribution",
+  "variant": "A_signal",
+  "bucket": "smb / Tier B"
+ },
+ "290179708876": {
+  "account_key": "international-paper",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708877": {
+  "account_key": "international-paper",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708878": {
+  "account_key": "bj-s-wholesale-club",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708879": {
+  "account_key": "j-d-irving",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708880": {
+  "account_key": "uline",
+  "variant": "B_cost",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708881": {
+  "account_key": "uline",
+  "variant": "B_cost",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708882": {
+  "account_key": "kenroc-building-materials",
+  "variant": "B_cost",
+  "bucket": "smb / Tier B"
+ },
+ "290179708883": {
+  "account_key": "kenroc-building-materials",
+  "variant": "B_cost",
+  "bucket": "smb / Tier B"
+ },
+ "290179708884": {
+  "account_key": "lkq",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708885": {
+  "account_key": "lkq",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708886": {
+  "account_key": "powell-industries-inc",
+  "variant": "A_signal",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708887": {
+  "account_key": "the-vitamin-shoppe",
+  "variant": "A_signal",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708888": {
+  "account_key": "lineage-logistics",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708889": {
+  "account_key": "lineage-logistics",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708890": {
+  "account_key": "quincaillerie-richelieu",
+  "variant": "B_cost",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708891": {
+  "account_key": "daikin",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708892": {
+  "account_key": "daikin",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708893": {
+  "account_key": "rexel-usa",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708894": {
+  "account_key": "rexel-usa",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708895": {
+  "account_key": "conagra-brands",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708896": {
+  "account_key": "conagra-brands",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290179708897": {
+  "account_key": "drive-medical",
+  "variant": "A_signal",
+  "bucket": "mid_market / Tier B"
+ },
+ "290179708898": {
+  "account_key": "cornerstone-building-brands",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708899": {
+  "account_key": "cornerstone-building-brands",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708900": {
+  "account_key": "ufp-industries",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708901": {
+  "account_key": "ufp-industries",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708902": {
+  "account_key": "keurig-dr-pepper",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708903": {
+  "account_key": "keurig-dr-pepper",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708904": {
+  "account_key": "savers-value-village",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier C"
+ },
+ "290179708905": {
+  "account_key": "mauser-packaging-solutions",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290179708906": {
+  "account_key": "mauser-packaging-solutions",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier B"
+ },
+ "290168811504": {
+  "account_key": "wesco",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ },
+ "290168811505": {
+  "account_key": "performance-foodservice",
+  "variant": "A_signal",
+  "bucket": "enterprise / Tier A"
+ },
+ "290168811506": {
+  "account_key": "ryder-system-inc",
+  "variant": "B_cost",
+  "bucket": "enterprise / Tier A"
+ }
+}
