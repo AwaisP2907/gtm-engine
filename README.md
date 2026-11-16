@@ -4,6 +4,10 @@ An outbound system I built and ran end to end in one weekend. It finds companies
 
 **Seller is fictional, prospects are real.** The product is *Brava Robotics*, a made-up humanoid Robot-as-a-Service company for warehouse tote handling. The accounts, job postings and firmographics are real public data. Every email went to inboxes I own; no prospect was contacted.
 
+**▶ 3-minute walkthrough: [youtu.be/4EiEUL6hOp0](https://youtu.be/4EiEUL6hOp0)**
+
+[![GTM Engine walkthrough](https://img.youtube.com/vi/4EiEUL6hOp0/maxresdefault.jpg)](https://youtu.be/4EiEUL6hOp0)
+
 Full write-up with the reasoning behind each step: [GTM Engine on Notion](https://app.notion.com/p/418d7363678781bcb303c01e5bc53987)
 
 ## Results from the live run
